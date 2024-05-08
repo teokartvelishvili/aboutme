@@ -1,0 +1,30 @@
+.headerMainDiv {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCBF49;
+    color: rgb(80, 54, 7);
+    text-shadow: 2px 1px 6px;
+    position: relative;
+    /* z-index: 1; */
+    
+    }
+    .LogoCont{
+        height: 80px;
+        width: 200px;
+        margin: 24px;
+        display: flex;
+    }
+    .LogoCont:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: transform 0.2s ease;
+    }
+    .navbar {
+        margin-top: 40px;
+    }
+.ThemeToggle {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

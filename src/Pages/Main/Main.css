@@ -1,0 +1,33 @@
+.MainCont {
+   display: flex;
+   justify-content: space-around;
+   background-color: #FCBF49;
+    height: 78vh;
+}
+.leftDiv  {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 200px;
+}
+.leftDiv h1 {
+    line-height: 50px;
+    letter-spacing: 4px;
+    color: #003049;
+}
+.leftDiv h3 {
+    color: #003049;
+}
+.rightDiv {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 70px;
+}
+.rightDiv img {
+    height: 300px;
+    width: 240px;
+    /* border: 2px solid rgb(158, 115, 13); */
+    box-shadow: 0px 3px 10px 5px;
+    border-radius: 50%;
+}
