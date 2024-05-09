@@ -1,13 +1,13 @@
 import React from 'react';
 
-const ToggleSwitch = ({ checked, onChange, image, image2 }) => {
+const ToggleSwitch = ({ checked, onChange, onClick, image, image2 }) => {
   const sliderStyle = {
     backgroundImage: checked ? `url(${image})` : `url(${image2})`, // Set the background image
     backgroundSize: 'cover',
   };
 
   return (
-    <label className="switch">
+    <label className="switch" onClick={onClick}>
       <input type="checkbox" checked={checked} onChange={onChange} />
       <span className="slider round" style={sliderStyle}></span>
     </label>

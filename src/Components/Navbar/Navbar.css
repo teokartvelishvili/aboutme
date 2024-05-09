@@ -14,8 +14,17 @@
     text-decoration: none;
     color: #003049;
   }
+  .dark .UlCont li a{
+    color: #F77F00;
+  }
 
   .UlCont li a:hover {
     color: #F77F00;
+    color: #EAE2B7;
+    color: #D62828;
+
+  }
+  .dark .UlCont li a:hover{
+    color: #EAE2B7;
   }
   
