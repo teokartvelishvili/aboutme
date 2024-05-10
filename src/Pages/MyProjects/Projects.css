@@ -1,0 +1,94 @@
+.projectsPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../Assets/teo\ logo\ light\ backg.png);
+  background-size: cover;
+
+}
+#boxesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4vw;
+  row-gap: 10vh;
+  margin-right: 4vw;
+}
+.boxCont {
+  margin: 5%;
+    position: relative;
+    width: 90%; /* Change the width as per your requirement */
+    height: 90%; /* Change the height as per your requirement */
+  }
+  .boxCont:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: transform 0.2s ease;
+    box-shadow: 7px 0px 3px rgb(24, 24, 7);
+  transform: translateX(-8px);
+  border-radius: 20px;
+  
+}
+  
+  .box {
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+  .box img {
+    height: inherit;
+    width: inherit;
+    border: 10px solid rgba(0, 48, 73, 0.7);
+    border-radius: inherit;
+  }
+  
+  .hoverBox {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    transition: transform 0.5s ease; /* Transition for smooth movement */
+    overflow: hidden; /* Hide the dot when it's outside the box */
+  }
+  
+  .hoverBox::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 10px; /* Adjust the size of the dot */
+    height: 200px; /* Adjust the size of the dot */
+    background-color: rgba(255, 255, 255, 1.7);; /* Change the color of the dot */
+    opacity: 50%;
+    /* border-radius: 50%; */
+    transform: translate(-100%, -50%);
+    transition: width 0.9s ease, height 0.9s ease, border-radius 0.1s ease; /* Transition for dot animation */
+  }
+  
+  .boxCont:hover .hoverBox::before {
+    width: 100%; /* Grow the dot to fill the box */
+    height: 100%; /* Grow the dot to fill the box */
+    border-radius: 0; /* Make the dot a square */
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 9px;
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 40px); /* Adjust the distance from the right edge of the box */
+    transform: translate(-50%, -50%);
+    transition: left 0.9s ease; /* Transition for smooth movement */
+  }
+  
+  .boxCont:hover .texts {
+    left: 40%; /* Move the text to the right when hovering over */
+  }
+    

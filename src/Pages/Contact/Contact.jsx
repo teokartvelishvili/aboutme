@@ -123,9 +123,9 @@ const Contact = () => {
         <a href="https://www.facebook.com/teo.qartvel" target="blank">
           <img alt="icon" src={fb} />
         </a>
-        <a href="mailto:qartvelishviliteona@gmail.com">
+        {/* <a href="mailto:qartvelishviliteona@gmail.com">
           <img alt="icon" src={mail} />
-        </a>
+        </a> */}
         <a href="tel:+995551999055">
           <img alt="icon" src={call} />
         </a>
