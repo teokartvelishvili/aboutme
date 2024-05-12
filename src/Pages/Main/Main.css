@@ -82,19 +82,22 @@ justify-content: center;
 }
 @media (max-width: 768px) {
     .MainCont2 {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     gap: 20px;
     }
     .MainCont2 h1 {
-        padding: 20px 0px 20px;
-font-size: 30px;
-line-height: 50px;
-letter-spacing: 5px;
+    padding: 20px 0px 20px;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 5px;
     }
  
+    .rightDiv img {
+        margin-top: 60px;
+    }
+    
+
 
 }

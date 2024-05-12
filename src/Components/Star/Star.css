@@ -39,8 +39,11 @@
 }
 @media (max-width: 768px) {
 .starsDiv {
- height: auto;
- width: auto;
- max-height: 20vh;
+ max-height: 25vh;
  max-width: 100%;
-    }}
+    }
+    .fallingStar {
+        top: 50px; /* Initial position above the viewport */
+        right: -400px; /* Initial position aligned to the right */
+    }
+}

@@ -75,37 +75,6 @@
 }
 
 
-
-/* .hexagon {
-  position: absolute;
-  margin-left: -55px;
-  margin-top: 90%;
-  width: 70px;
-  height: 38.5px;
-  background-color: rgba(255, 255, 255, 1.7);
-  position: relative;
- 
-}
-
-.hexagon::before,
-.hexagon::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  border-left: 35px solid transparent; 
-  border-right: 35px solid transparent;
-}
-
-.hexagon::before {
-  top: -19px; 
-  border-bottom: 19.75px solid rgba(255, 255, 255, 1.7); 
-}
-
-.hexagon::after {
-  bottom: -19px; 
-  border-top: 19.75px solid rgba(255, 255, 255, 1.7); 
-} */
-
 #boxesGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -214,4 +183,16 @@
   cursor: grab;
   transform: scale(1.05);
   transition: transform 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  #boxesGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .texts {
+    gap: 0px;
+  }
+  .texts p {
+    margin: 10px;
+  }
 }
