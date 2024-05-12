@@ -30,12 +30,12 @@ const projectsData = [
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
-    {
-        name: "project3",
-        description: "Loing elit. Modi, ducimus.",
-        image: image1,
-        link: "https://www.google.com" // Corrected link format
-    },
+    // {
+    //     name: "project3",
+    //     description: "Loing elit. Modi, ducimus.",
+    //     image: image1,
+    //     link: "https://www.google.com" // Corrected link format
+    // },
     {
         name: "project4",
         description: "Lorem ipsumicin, ducimus.",
