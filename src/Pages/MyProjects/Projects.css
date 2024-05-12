@@ -6,8 +6,6 @@
   /* background-image: url(../../Assets/teo\ logo\ light\ backg.png); */
   background-color: #eae2b7;
   background-size: cover;
-  height: 100vh;
-
 }
 .projectsHead {
   display: flex;
@@ -204,17 +202,10 @@
     width: 300px;
   }
   .hoverBox::before {
-    content: "";
-    position: absolute;
     top: 50%;
     left: 100%;
     width: 10px; /* Adjust the size of the dot */
     height: 150px; /* Adjust the size of the dot */
-    background-color: rgba(255, 255, 255, 1.7); /* Change the color of the dot */
-    opacity: 50%;
-    /* border-radius: 50%; */
-    transform: translate(-100%, -50%);
-    transition: width 0.9s ease, height 0.9s ease, border-radius 0.1s ease; /* Transition for dot animation */
   }
   #boxesGrid {
     display: grid;
@@ -223,6 +214,10 @@
     row-gap: 0;
     margin-right: 0;
   }
-
+  .projectsPage {
+    height: 100vh;
+    padding-top: 50vh;
+  
+  }
 
 }
