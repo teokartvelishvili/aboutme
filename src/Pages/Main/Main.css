@@ -5,12 +5,16 @@
    background-image: url(../../Assets/teo\ logo\ light\ backg.png);
    height: 78vh;
 } */
-
-.MainCont {
+.MainCont{
+    position: relative;
+    padding-top: 40px;
+   
+}
+.MainCont2 {
     display: flex;
     justify-content: space-around;
     /* background-color: #FCBF49; Background color */
-    height: 78vh;
+    /* height: 78vh; */
     position: relative; /* Set position to relative */
  }
  
@@ -21,14 +25,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../../Assets/teo\ logo\ light\ backg.png);
-    opacity: 0.7; 
+    background-color: #eae2b7;
+    /* background-image: url(../../Assets/teo\ logo\ light\ backg.png);
+    opacity: 0.7;  */
     z-index: -1; 
  }
  .dark .MainCont::before {
-    background-image: url(../../Assets/teo\ logo\ dark\ backgr.png);
+    /* background-image: url(../../Assets/teo\ logo\ dark\ backgr.png); */
+    /* background-color: #003049; */
+    background-color: #003049;
  }
- 
+
 
 .leftDiv  {
 display: flex;
@@ -61,4 +68,15 @@ margin-right: 70px;
     /* box-shadow: 0px 3px 10px 5px; */
     border: 10px solid rgba(0, 48, 73, 0.7);
     border-radius: 10%;
+}
+
+.footer {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: initial;
+}
+.footer img {
+    height: 50vh;
+    width: 80%;
 }

@@ -1,14 +1,15 @@
 .headerMainDiv {
     display: flex;
     justify-content: space-between;
-    background-color: #fcb149;
+    /* background-color: #fcb149; */
+    background-color: #e9cc93;
     color: rgb(80, 54, 7);
     text-shadow: 2px 1px 6px;
     position: relative;
     }
 
     .dark .headerMainDiv {
-        background-color: #003049;
+        background-color: #011a28;
     }
 
     .LogoCont {
@@ -16,6 +17,7 @@
         width: 200px;
         margin: 24px;
         display: flex;
+        z-index: 2;
     }
     
     .LogoCont:hover {
@@ -30,4 +32,12 @@
     position: absolute;
     top: 5px;
     right: 5px;
+    z-index: 2;
 }
+
+
+.lightStar{
+height: 10px;
+width: 10px;
+}
+

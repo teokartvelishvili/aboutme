@@ -1,0 +1,39 @@
+#star {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    opacity: 0; /* Initially transparent */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+#star:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+.starsDiv {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr repeat(13, minmax(0, 1fr)); /* First column takes 100vh, rest adjust */
+    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+    gap: 80px;
+}
+
+.fallingStar {
+    position: absolute;
+    top: -50px; /* Initial position above the viewport */
+    right: 0; /* Initial position aligned to the right */
+    animation: fallingStarAnimation 5s linear forwards; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes fallingStarAnimation {
+    0% {
+        transform: translate(0, -50%);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-300%, 100%);
+        opacity: 0;
+    }
+}

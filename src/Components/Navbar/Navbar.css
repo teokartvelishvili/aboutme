@@ -9,6 +9,7 @@
     grid-auto-flow: column; 
     grid-gap: 40px; 
     list-style: none;
+    z-index: 2;
   }
   .UlCont li a {
     text-decoration: none;

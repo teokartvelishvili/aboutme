@@ -11,6 +11,7 @@ import lemon from '../../Assets/Property 1=orange, Property 2=on.png';
 import orange from '../../Assets/Property 1=orange, Property 2=off.png';
 import engFlag from '../../Assets/engFlag.png';
 import geoFlag from '../../Assets/geoFlag.png';
+import Star from "../Star/Star.jsx";
 
 
 const Header = () => {
@@ -27,6 +28,8 @@ const Header = () => {
     //     setLanguage(newLanguage);
     //   };
 
+
+
     return (
         <div className={`headerMainDiv ${theme}`}>
 
@@ -38,6 +41,7 @@ const Header = () => {
           />
             </div>
    }
+<Star numberOfStars={26} />
 
 <div className="ThemeToggle">
             {/* Pass all four images as props */}
