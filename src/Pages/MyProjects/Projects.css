@@ -184,10 +184,7 @@
   transition: transform 0.2s ease;
 }
 @media (max-width: 768px) {
-  #boxesGrid {
-   
-    grid-template-columns: repeat(1, 5fr);
-  }
+
   .texts {
     gap: 0px;
     margin-left: 5px;
@@ -216,6 +213,13 @@
     /* border-radius: 50%; */
     transform: translate(-100%, -50%);
     transition: width 0.9s ease, height 0.9s ease, border-radius 0.1s ease; /* Transition for dot animation */
+  }
+  #boxesGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 0;
+    margin-right: 0;
   }
 
 
