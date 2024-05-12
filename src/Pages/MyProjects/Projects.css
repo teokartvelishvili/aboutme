@@ -6,6 +6,8 @@
   /* background-image: url(../../Assets/teo\ logo\ light\ backg.png); */
   background-color: #eae2b7;
   background-size: cover;
+  height: 100vh;
+
 }
 .projectsHead {
   display: flex;
@@ -194,12 +196,12 @@
     margin: 0px;
   }
 .box {
-  height: 145px;
-  width: 220px;
+  height: 140px;
+  width: 300px;
 }
   .box img {
     height: 150px;
-    width: 220px;
+    width: 300px;
   }
   .hoverBox::before {
     content: "";
