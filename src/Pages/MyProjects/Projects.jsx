@@ -8,37 +8,37 @@ import image1 from '../../Assets/digital-nomad-girl-enjoying-working-with-comput
 const projectsData = [
     {
         name: "project1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ducimus.",
+        description: "Locing elit. Modi, ducimus.",
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
     {
         name: "project2",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ducimus.",
+        description: "Lorem ipsum doing , ducimus.",
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
     {
         name: "project3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ducimus.",
+        description: "Lorem ipsuicing elit. Modi, ducimus.",
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
     {
         name: "project3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ducimus.",
+        description: "sectetur adipisicing elit. Modi, ducimus.",
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
     {
         name: "project3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ducimus.",
+        description: "Loing elit. Modi, ducimus.",
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
     {
         name: "project4",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ducimus.",
+        description: "Lorem ipsumicin, ducimus.",
         image: image1,
         link: "https://www.google.com" // Corrected link format
     }
