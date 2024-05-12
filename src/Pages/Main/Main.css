@@ -41,7 +41,7 @@
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-right: 200px;
+/* margin-right: 200px; */
 }
 .leftDiv h1 {
     line-height: 50px;
@@ -59,7 +59,7 @@ margin-right: 200px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-right: 70px;
+/* margin-right: 70px; */
 }
 .rightDiv img {
     height: 300px;
@@ -77,6 +77,24 @@ margin-right: 70px;
     background-color: initial;
 }
 .footer img {
-    height: 50vh;
+    height: 70vh;
     width: 80%;
+}
+@media (max-width: 768px) {
+    .MainCont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    }
+    .MainCont2 h1 {
+        padding: 20px 0px 20px;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: 5px;
+    }
+ 
+
 }

@@ -37,3 +37,10 @@
         opacity: 0;
     }
 }
+@media (max-width: 768px) {
+.starsDiv {
+ height: auto;
+ width: auto;
+ max-height: 20vh;
+ max-width: 100%;
+    }}
