@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
 import "./Main.css"
-import TEO from '../../Assets/TEO.jpg';
+import TEO from '../../Assets/teo3.png';
 import footerImg from '../../Assets/paper-text-illustration-the-background-of-the-knowledge-in-the-book-1ce8854c8bc28769619eda06469bf70d.png'
 
 const MainPage = () => {

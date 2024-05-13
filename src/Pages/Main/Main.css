@@ -63,11 +63,12 @@ justify-content: center;
 }
 .rightDiv img {
     height: 300px;
-    width: 240px;
+    width: 380px;
     /* border: 2px solid rgb(158, 115, 13); */
     /* box-shadow: 0px 3px 10px 5px; */
-    border: 10px solid rgba(0, 48, 73, 0.7);
-    border-radius: 10%;
+    /* border: 10px solid rgba(0, 48, 73, 0.7); */
+    /* border-radius: 10%; */
+    border-bottom: 10px solid rgba(0, 48, 73, 0.7) ;
 }
 
 .footer {

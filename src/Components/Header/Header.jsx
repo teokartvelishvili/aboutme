@@ -41,7 +41,7 @@ const Header = () => {
           />
             </div>
    }
-<Star numberOfStars={26} />
+<Star numberOfStars={52} />
 
 <div className="ThemeToggle">
             {/* Pass all four images as props */}

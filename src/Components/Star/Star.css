@@ -10,15 +10,28 @@
     opacity: 1; /* Fully visible on hover */
 }
 
-.starsDiv {
+/* .starsDiv {
     overflow: hidden;
     position: absolute;
     z-index: 1;
     display: grid;
-    grid-template-columns: 1fr repeat(13, minmax(0, 1fr)); /* First column takes 100vh, rest adjust */
-    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+    grid-template-columns: 1fr repeat(17, minmax(0, 1fr));
+    grid-template-rows: 1fr repeat(auto-fit, minmax(0, 1fr)); 
     gap: 80px;
+} */
+.starsDiv {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    /* height: inherit; */
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr repeat(25, minmax(0, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(2, 1fr)) 1fr; /* Add a row at the bottom */
+    gap: 5px;
 }
+
 
 .fallingStar {
     position: absolute;
@@ -39,11 +52,14 @@
 }
 @media (max-width: 768px) {
 .starsDiv {
- max-height: 25vh;
+height: 30vh;
  max-width: 100%;
+ grid-template-rows: repeat(auto-fit, minmax(3, 1fr)) 1fr; /* Add a row at the bottom */
+ gap: 10px;
     }
     .fallingStar {
         top: 50px; /* Initial position above the viewport */
         right: -400px; /* Initial position aligned to the right */
-    }
+     
+    } 
 }
