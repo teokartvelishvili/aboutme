@@ -5,7 +5,8 @@
   align-items: center;
   /* background-image: url(../../Assets/teo\ logo\ light\ backg.png); */
   background-color: #eae2b7;
-  background-size: cover;
+  /* background-size: cover; */
+ 
 }
 .projectsHead {
   display: flex;
@@ -216,6 +217,7 @@
     column-gap: 0;
     row-gap: 5vh;
     margin-right: 0;
+    background-color: #eae2b7;
   }
   .projectsPage {
     height: 100vh;
