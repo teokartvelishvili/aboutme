@@ -89,6 +89,7 @@
   position: relative;
   width: 90%; /* Change the width as per your requirement */
   height: 90%; /* Change the height as per your requirement */
+  border-radius: 20px;
 }
 
 .boxCont:hover {
@@ -194,12 +195,14 @@
     margin: 0px;
   }
 .box {
-  height: 140px;
-  width: 300px;
+  height: 25vh;
+  width: 90vh;
+  border: none;
 }
   .box img {
-    height: 154px;
-    width: 300px;
+    height: initial;
+    width: 90vh;
+    border: none;
   }
   .hoverBox::before {
     top: 50%;
@@ -216,7 +219,7 @@
   }
   .projectsPage {
     height: 100vh;
-    padding-top: 50vh;
+    padding-top: 100vh;
   
   }
 
