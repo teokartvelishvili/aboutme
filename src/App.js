@@ -4,9 +4,11 @@ import './App.css';
 import MainPage from './Pages/Main/Main';
 import Projects from './Pages/MyProjects/Projects';
 import Contact from './Pages/Contact/Contact';
-import Layout from './Layouts/Layout';
+import Layout from './Layouts/Layout.jsx';
+import { useLayoutEffect } from 'react';
 import { ThemeContext } from '../src/Hooks/ThemeContecs.js';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AboutMe from './Pages/AboutMe/AboutMe.jsx';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -39,7 +41,7 @@ function App() {
               path="/about"
               element={
                 <Layout>
-                  <h1>coming soon..</h1>
+                  <AboutMe/>
                 </Layout>
               }
             />

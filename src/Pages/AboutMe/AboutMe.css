@@ -1,0 +1,68 @@
+/* AboutMe.css */
+
+#container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eae2b7;
+    color: #003049; /* Primary text color */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #D62828; /* Bold red for the heading */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #003049; /* Ensure all text is in primary color */
+  }
+  
+  strong {
+    color: #D62828; /* Highlight important words in red */
+  }
+  
+  .highlight {
+    background-color: #f77f00; /* Orange highlight background */
+    color: #ffffff; /* Ensure text is readable on the highlight */
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  .important {
+    color: #fcbf49; /* Use the yellow shade for very important words */
+    font-weight: bold;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  p em {
+    font-style: oblique;
+    color: #D62828;
+  }
+  
+  @media (max-width: 768px) {
+    #container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
