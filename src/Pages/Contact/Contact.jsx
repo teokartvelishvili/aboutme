@@ -62,7 +62,7 @@ const Contact = () => {
     <div className={`contact ${theme}`}>
       <div className="section1">
         {/* <h1>{TEXTS[language].contactMe}</h1> */}
-        <h1>contact me</h1>
+        <h1>Contact Me</h1>
 
         {submitted ? (
           <p>message Sent, thank you! </p>

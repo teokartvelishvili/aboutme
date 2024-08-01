@@ -1,68 +1,107 @@
-/* AboutMe.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
-#container {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #eae2b7;
-    color: #003049; /* Primary text color */
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #D62828; /* Bold red for the heading */
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.2em;
-    line-height: 1.8;
-    color: #003049; /* Ensure all text is in primary color */
-  }
-  
-  strong {
-    color: #D62828; /* Highlight important words in red */
-  }
-  
-  .highlight {
-    background-color: #f77f00; /* Orange highlight background */
-    color: #ffffff; /* Ensure text is readable on the highlight */
-    padding: 2px 4px;
-    border-radius: 4px;
-  }
-  
-  .important {
-    color: #fcbf49; /* Use the yellow shade for very important words */
-    font-weight: bold;
-  }
-  
-  .container {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  p em {
-    font-style: oblique;
-    color: #D62828;
-  }
-  
-  @media (max-width: 768px) {
-    #container {
+
+
+
+
+
+.aboutContainer {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #eae2b7;
+  color: #003049; /* Primary text color */
+  margin: 0;
+  padding: 20px;
+}
+
+.dark .aboutContainer {
+  background-color: #003049; /* Dark mode background */
+  color: #eae2b7; /* Light text for dark mode */
+}
+
+.aboutContainer h1 {
+  text-align: center;
+  color: #003049;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Lora', serif; */
+
+}
+
+.dark .aboutContainer h1 {
+  color: #fcbf49; /* Yellow for headers in dark mode */
+}
+
+.aboutContainer p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #003049; /* Ensure all text is in primary color */
+}
+
+.dark .aboutContainer p {
+  color: #eae2b7; /* Light text for dark mode */
+}
+
+#container strong {
+  color: #d62828; /* Highlight important words in red */
+}
+
+.dark #container strong {
+  color: #fcbf49; /* Use yellow in dark mode for strong emphasis */
+}
+
+#container .highlight {
+  background-color: #f77f00; /* Orange highlight background */
+  color: #ffffff; /* Ensure text is readable on the highlight */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.dark #container .highlight {
+  background-color: #fcbf49; /* Yellow highlight background in dark mode */
+  color: #003049; /* Dark text on light highlight */
+}
+
+#container .important {
+  color: #fcbf49; /* Use the yellow shade for very important words */
+  font-weight: bold;
+}
+
+.dark #container .important {
+  color: #d62828; /* Use red for very important words in dark mode */
+}
+
+#container p em {
+  font-style: oblique;
+  color: #d62828; /* Red for italicized text */
+}
+
+.dark #container p em {
+  color: #fcbf49; /* Yellow for italicized text in dark mode */
+}
+
+@media (max-width: 768px) {
+  #container {
       padding: 10px;
-    }
-  
-    h1 {
-      font-size: 2em;
-    }
-  
-    p {
-      font-size: 1em;
-    }
   }
-  
+
+  #container h1 {
+      font-size: 2em;
+  }
+
+  #container p {
+      font-size: 1em;
+  }
+}

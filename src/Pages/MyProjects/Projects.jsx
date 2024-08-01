@@ -1,16 +1,19 @@
-import React from "react";
+
 import "./Projects.css";
+import React, { useState, useContext } from "react";
+import { ThemeContext } from "../../Hooks/ThemeContecs";
 import webIcon from '../../Assets/uehih159jjn0515185cibslqea.png';
 import linkIcon2 from '../../Assets/history-of-the-world-wide-web-website-internet-world-wide-web-consortium-www-png-pic-729057b1059092333b44a81be522843d.png';
 import linkIcon from '../../Assets/hyperlink-computer-icons-link-exchange-website-ico-download-links-8ec00b276d4eeaf491ac36c3d867ff97.png';
 import image1 from '../../Assets/digital-nomad-girl-enjoying-working-with-computer-laptop-while-holiday-beach_962751-5920.jpg';
+import BluPrintLogo from '../../Assets/logoBluPrint.png'
 
 const projectsData = [
     {
-        name: "project1",
-        description: "Locing elit. Modi, ducimus.",
-        image: image1,
-        link: "https://www.google.com" // Corrected link format
+        name: "BluPrintProject",
+        description: "My first custom React project",
+        image: BluPrintLogo,
+        link: "https://blue-print-project2024.vercel.app/" // Corrected link format
     },
     {
         name: "project2",
@@ -30,12 +33,7 @@ const projectsData = [
         image: image1,
         link: "https://www.google.com" // Corrected link format
     },
-    // {
-    //     name: "project3",
-    //     description: "Loing elit. Modi, ducimus.",
-    //     image: image1,
-    //     link: "https://www.google.com" // Corrected link format
-    // },
+
     {
         name: "project4",
         description: "Lorem ipsumicin, ducimus.",
@@ -45,23 +43,24 @@ const projectsData = [
 ];
 
 const Projects = () => {
-    return(   <div className="projectsPage">  
-      <div className="projectsHead">
-        <div className="projectsHeadIcon" ><img src={webIcon} alt="" /> </div>
+    const { theme, toggleTheme } = useContext(ThemeContext);
+    return(  
+    <div className={`projectsPage ${theme}`}>  
+    <div className={`projectsHead ${theme}`}>
+        <div className={`projectsHeadIcon ${theme}`} ><img src={webIcon} alt="" /> </div>
         <h1>My Projects </h1>
-        </div>
         
+        </div>
+        <p id="projP">I will host and add projects step by step, until then you can see them on my GitHub</p>
         <div id="boxesGrid">
                     {projectsData.map((service, index) => (
                 <div key={index} className="boxCont">
                     <div className="box"><img src={service.image} alt="" /></div>
                     
                     <div className="hoverBox">
-                  
-                   
                         <div className="texts">
+
                         {/* <div className="hexagon"></div> */}
-                      
                             <h3>{service.name}</h3>
                             <p>{service.description}</p>
                             <a href={service.link} target="_blank" rel="noopener noreferrer">

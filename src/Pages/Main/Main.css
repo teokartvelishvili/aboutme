@@ -36,6 +36,26 @@
     background-color: #003049;
  }
 
+ .download {
+    background-color: #011a28;
+    border-radius: 20%;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+  }
+  .leftDiv a {
+    color: #fcbf49;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  .download:hover {
+    background-color: #f77f00;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+  }
+
 
 .leftDiv  {
 display: flex;
@@ -59,16 +79,17 @@ justify-content: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
-/* margin-right: 70px; */
+margin-right: -70px;
 }
 .rightDiv img {
-    height: 300px;
-    width: 380px;
-    /* border: 2px solid rgb(158, 115, 13); */
-    /* box-shadow: 0px 3px 10px 5px; */
-    /* border: 10px solid rgba(0, 48, 73, 0.7); */
-    /* border-radius: 10%; */
-    border-bottom: 10px solid rgba(0, 48, 73, 0.7) ;
+    height: 70%;
+    width: 70%;
+    border: 8px dotted #F77F00;
+    /* border: 2px solid rgb(158, 115, 13);  */
+    /* box-shadow: 0px 0px 20px 5px;  */
+    /* border: 10px solid rgba(0, 48, 73, 0.7);  */
+    border-radius: 50%;
+    /* border-bottom: 10px solid rgba(0, 48, 73, 0.7) ; */
 }
 
 .footer {
