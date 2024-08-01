@@ -10,7 +10,7 @@ import BluPrintLogo from '../../Assets/logoBluPrint.png'
 
 const projectsData = [
     {
-        name: "BluPrintProject",
+        name: "BluPrint Studio",
         description: "My first custom React project",
         image: BluPrintLogo,
         link: "https://blue-print-project2024.vercel.app/" // Corrected link format

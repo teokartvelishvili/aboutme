@@ -12,7 +12,8 @@
         background-color: #011a28;
     }
 
-    .LogoCont {
+    .LogoCont
+   {
         height: 80px;
         width: 200px;
         margin: 24px;
@@ -20,6 +21,12 @@
         z-index: 2;
     }
     
+    .logo {
+        height: 80px;
+        width: 200px;
+        margin: 0px;
+    }
+   
     .LogoCont:hover {
         cursor: pointer;
         transform: scale(1.05);

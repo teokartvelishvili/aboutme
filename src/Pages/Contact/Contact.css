@@ -4,7 +4,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    /* min-height: 100vh; */
+    min-height: 100vh;
+    /* height: 100%; */
+    background-color: #eae2b7;
+  }
+  .dark .contact {
+    background-color: #003049;
   }
   .contact::before {
     content: "";
@@ -33,9 +38,7 @@
     color: #fcbf49;
   }
   
-  /* .socIcons {
-    margin-top: 70px;
-  } */
+
 
   .socIcons a img {
     height: 40px;
@@ -90,9 +93,12 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
+  .dark .contact-form button {
+    background-color: #011a28;
+  }
   
   .contact-form button:hover {
-    background-color: #D62828;
+    background-color: #f77f00;
   }
   
   @media screen and (min-width: 800px) {

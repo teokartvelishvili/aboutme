@@ -1,6 +1,7 @@
 
 import React, { useState, useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import "../Toggle/toggle.css";
 import Navbar from "../Navbar/Navbar";
@@ -32,15 +33,18 @@ const Header = () => {
 
     return (
         <div className={`headerMainDiv ${theme}`}>
-
+            
+            
             { <div className={`LogoCont ${theme}`}>
-            <img
-            alt="logo"
-            src={theme === "dark" ? logoDark : logoLight}
-            className="logo"
-          />
+            <Link to="/">
+                <img
+                alt="logo"
+                src={theme === "dark" ? logoDark : logoLight}
+                className="logo"
+            />
+            </Link>
             </div>
-   }
+            }
 <Star numberOfStars={52} />
 
 <div className="ThemeToggle">

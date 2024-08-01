@@ -12,7 +12,7 @@
 }
 
 .footerContainer.dark {
-    background-color: #011a28;; /* Dark background for light theme */
+    background-color: #011a28; /* Dark background for light theme */
     color: #eae2b7; /* Light text for light theme */
     border-top: 2px solid #d62828; /* Red border in light theme */
 }
