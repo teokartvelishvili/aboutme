@@ -218,7 +218,7 @@
     margin-left: 10px;
   }
 .box {
-  height: 35vh;
+  height: 45vh;
   width: 90vh;
   border: none;
 }
@@ -245,7 +245,7 @@
     background-color: #003049;
   }
   .projectsPage {
-    height: 100%;
+    height: auto;
     /* padding-top: 100vh; */
   
   }
