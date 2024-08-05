@@ -218,14 +218,16 @@
     margin-left: 10px;
   }
 .box {
-  height: 260px;
+  min-height: 260px;
   width: 90vh;
   border: none;
+}
+.box::before{
+  height: 260px;
 }
   .box img {
     height: initial;
     height: 260px;
-
     width: 90vh;
     border: none;
   }
@@ -239,6 +241,10 @@
   .boxCont:hover{
     height: 260px; 
   }
+  .hoverBox {
+    min-height: 260px;
+  }
+
   #boxesGrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -252,7 +258,7 @@
     background-color: #003049;
   }
   .projectsPage {
-    height: auto;
+    /* height: auto; */
     /* padding-top: 100vh; */
   
   }
