@@ -218,12 +218,14 @@
     margin-left: 10px;
   }
 .box {
-  height: 45vh;
+  height: 260px;
   width: 90vh;
   border: none;
 }
   .box img {
     height: initial;
+    height: 260px;
+
     width: 90vh;
     border: none;
   }
@@ -233,14 +235,17 @@
     width: 10px; /* Adjust the size of the dot */
     height: 130px; /* Adjust the size of the dot */
   }
+  .boxCont:hover{
+    height: 260px; 
+  }
   #boxesGrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0;
     row-gap: 5vh;
     margin-right: 0;
-    /* background-color: #eae2b7; */
-    background-color: red;
+    background-color: #eae2b7;
+
   }
   .dark #boxesGrid {
     background-color: #003049;
