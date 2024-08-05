@@ -5,9 +5,9 @@
   align-items: center;
   /* background-image: url(../../Assets/teo\ logo\ light\ backg.png); */
   background-color: #eae2b7;
-  /* background-size: cover; */
-  /* height: 100%;
-  width: auto; */
+  background-size: cover;
+  height: auto;
+  width: auto;
  
 }
 .dark .projectsPage{
@@ -222,9 +222,7 @@
   width: 90vh;
   border: none;
 }
-/* .box::before{
-  min-height: 260px;
-} */
+
   .box img {
     height: initial;
     height: 260px;
@@ -251,17 +249,17 @@
     column-gap: 0;
     row-gap: 5vh;
     margin-right: 0;
-    background-color: #eae2b7;
-    height: 100%;
+    /* background-color: #eae2b7; */
+    background-color: red;
+ 
 
   }
   .dark #boxesGrid {
     background-color: #003049;
   }
   .projectsPage {
-    height: 100%;
-    /* padding-top: 100vh; */
-  
+    /* height: 100%; */
+    
   }
 
 
