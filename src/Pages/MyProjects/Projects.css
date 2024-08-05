@@ -222,9 +222,9 @@
   width: 90vh;
   border: none;
 }
-.box::before{
-  height: 260px;
-}
+/* .box::before{
+  min-height: 260px;
+} */
   .box img {
     height: initial;
     height: 260px;
@@ -247,18 +247,19 @@
 
   #boxesGrid {
     display: grid;
-    grid-template-columns: repeat(1, 2fr);
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 0;
     row-gap: 5vh;
     margin-right: 0;
     background-color: #eae2b7;
+    height: 100%;
 
   }
   .dark #boxesGrid {
     background-color: #003049;
   }
   .projectsPage {
-    /* height: auto; */
+    height: 100%;
     /* padding-top: 100vh; */
   
   }
