@@ -108,26 +108,26 @@ const Contact = () => {
         )}
       </div>
 
-      <div className="socIcons">
+      <div className="socIcons" id="socIcons">
         <a href="https://github.com/teokartvelishvili?tab=repositories" target="blank">
           {" "}
-          <img alt="icon" src={git} />
+          <img alt="icon" src={git} /> <p>Github</p>
         </a>
         <a href="https://www.linkedin.com/in/teona-qartvelishvili-8a4005257/" target="blank">
           {" "}
-          <img alt="icon" src={linkedin} />
+          <img alt="icon" src={linkedin} /> <p>Linkedin</p>
         </a>
         <a href="https://www.instagram.com/teo.kartvel?igsh=dnUzODMxcnZzN3p5&utm_source=qr" target="blank">
-          <img alt="icon" src={inst} />
+          <img alt="icon" src={inst} /> <p>Instagram</p>
         </a>
         <a href="https://www.facebook.com/teo.qartvel" target="blank">
-          <img alt="icon" src={fb} />
+          <img alt="icon" src={fb} /> <p>Facebook</p>
         </a>
         {/* <a href="mailto:qartvelishviliteona@gmail.com">
           <img alt="icon" src={mail} />
         </a> */}
         <a href="tel:+995551999055">
-          <img alt="icon" src={call} />
+          <img alt="icon" src={call} /><p>Mobile</p>
         </a>
       </div>
     </div>

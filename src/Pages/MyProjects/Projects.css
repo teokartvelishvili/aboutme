@@ -232,8 +232,7 @@
   .hoverBox::before {
     top: 50%;
     left: 100%;
-    width: 10px; /* Adjust the size of the dot */
-    /* height: 130px;  */
+    width: 10px; 
     height: 260px; 
   }
   .boxCont:hover{
@@ -252,8 +251,6 @@
     background-color: #eae2b7;
     height: 200%;
     
- 
-
   }
   .dark #boxesGrid {
     background-color: #003049;
@@ -262,6 +259,5 @@
    min-height: 200vh;
     
   }
-
 
 }

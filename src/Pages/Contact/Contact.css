@@ -28,6 +28,7 @@
   /* background-image: url(../../Assets/teo\ logo\ dark\ backgr.png); */
   background-color: #003049;
  }
+ 
   .contact h1 {
     color: #003049;
     /* text-shadow: 0px 0px 10px #007bff; */
@@ -37,16 +38,25 @@
   .dark .contact h1 {
     color: #fcbf49;
   }
+  #socIcons{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+  }
   
-
-
   .socIcons a img {
     height: 40px;
     width: 40px;
-    margin: 10px;
+    
   
   }
+  .socIcons a  {
+   text-decoration: none;
+   color: #003049;
+   font-size: 12px;
+   font-family: 'Poppins', sans-serif;
   
+  }
   .socIcons img {
     /* width: 25%; */
     /* height: 40px; */
