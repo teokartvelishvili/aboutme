@@ -229,12 +229,26 @@
     width: 90vh;
     border: none;
   }
-  .hoverBox::before {
+  /* .hoverBox::before {
+    content: "";
+    position: absolute;
     top: 50%;
     left: 100%;
-    width: 10px; /* Adjust the size of the dot */
+    width: 5px; 
+    height: 180px; 
+    background-color: rgba(255, 255, 255, 1.7); 
+    opacity: 50%;
+    transform: translate(-100%, -50%);
+    transition: width 0.9s ease, height 0.9s ease, border-radius 0.1s ease; 
+  } */
+  .hoverBox::before {
+    top: 100%;
+    left: 100%;
+    width: 2px; /* Adjust the size of the dot */
     /* height: 130px;  */
-    height: 260px; 
+    height: 260px;
+    transform: translate(-100%, -100%);
+    transition: width 0.9s ease, height 0.9s ease, border-radius 0.1s ease;  
   }
   .boxCont:hover{
     height: 260px; 
@@ -245,8 +259,8 @@
 
   #boxesGrid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    column-gap: 0;
+    grid-template-columns: repeat(1, 1fr );
+    column-gap: 0px;
     row-gap: 5vh;
     margin-right: 0;
     background-color: #eae2b7;
