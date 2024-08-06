@@ -6,20 +6,21 @@ import webIcon from '../../Assets/uehih159jjn0515185cibslqea.png';
 import linkIcon2 from '../../Assets/history-of-the-world-wide-web-website-internet-world-wide-web-consortium-www-png-pic-729057b1059092333b44a81be522843d.png';
 import linkIcon from '../../Assets/hyperlink-computer-icons-link-exchange-website-ico-download-links-8ec00b276d4eeaf491ac36c3d867ff97.png';
 import image1 from '../../Assets/digital-nomad-girl-enjoying-working-with-computer-laptop-while-holiday-beach_962751-5920.jpg';
-import BluPrintLogo from '../../Assets/logoBluPrint.png'
+import BluPrintLogo from '../../Assets/logoBluPrint.png';
+import amindi from '../../Assets/amindi1.jpg';
 
 const projectsData = [
     {
-        name: "BluPrint Studio",
-        description: "My first custom React project",
+        name: "BluPrint",
+        description: "My first custom project",
         image: BluPrintLogo,
         link: "https://blue-print-project2024.vercel.app/" // Corrected link format
     },
     {
-        name: "project2",
-        description: "Lorem ipsum doing , ducimus.",
-        image: image1,
-        link: "https://www.google.com" // Corrected link format
+        name: "Weather",
+        description: "Weather in georgia",
+        image: amindi,
+        link: "https://weather-phi-pink.vercel.app/" // Corrected link format
     },
     {
         name: "project3",
