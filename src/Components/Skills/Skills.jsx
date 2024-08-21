@@ -47,7 +47,7 @@ const Skills = () => {
     <div className="skillsContainer">
 
     <div className="skills">
-        <h2>SKILLS</h2>
+        <h2 id="SK">SKILLS</h2>
       {skills.map((skill, index) => (
         <div key={index} className={`skill ${theme}`}>
           <div className="iconSkills">
@@ -61,7 +61,7 @@ const Skills = () => {
     </div>
 
     <div className="skills">
-        <h2>Spoken Languages</h2>
+        <h2 id="SL">Spoken Languages</h2>
       {Languages.map((Languages, index) => (
         <div key={index} className="skill">
           <div className="iconSkills">

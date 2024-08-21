@@ -9,10 +9,22 @@
 .skills {
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 70%;
   }
-  
+  #SK:hover,
+  #SL:hover{
+    cursor: context-menu;
+    transform: none;
+    transition: none;
+  }
+  .skills :hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: transform 0.7s ease;
+  }
+
+
   .skill {
     display: flex;
     align-items: center;
@@ -21,6 +33,15 @@
     margin-bottom: 0px;
     border-bottom: 2px dotted #003049;
     border-radius: 20% 0px;
+  }
+  .skill:hover{
+    border-bottom: 4px dotted #003049;
+    border-radius: 30% 0px;
+  }
+  .dark .skill:hover{
+    
+    border-bottom: 4px dotted #F77F00;
+    border-radius: 30% 0px;
   }
   .dark .skill {
     display: flex;
