@@ -249,14 +249,14 @@
     row-gap: 5vh;
     margin-right: 0;
     background-color: #eae2b7;
-    height: 300%;
+    height: 220%;
     
   }
   .dark #boxesGrid {
     background-color: #003049;
   }
   .projectsPage {
-   min-height: 300vh;
+   min-height: 220vh;
     
   }
 
