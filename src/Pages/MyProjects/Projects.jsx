@@ -14,7 +14,7 @@ const projectsData = [
         name: "BluPrint",
         description: "My first custom project",
         image: BluPrintLogo,
-        link: "https://blue-print-project2024.vercel.app/" // Corrected link format
+        link: "https://www.blueprintstudio.ge/" // Corrected link format
     },
     {
         name: "Weather",
