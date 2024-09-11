@@ -158,7 +158,7 @@
   width: 5px; 
   height: 180px; /* Adjust the size of the dot */
   background-color: rgba(255, 255, 255, 1.7); /* Change the color of the dot */
-  opacity: 50%;
+  opacity: 80%;
   /* border-radius: 50%; */
   transform: translate(-100%, -50%);
   transition: width 0.9s ease, height 0.9s ease, border-radius 0.1s ease; /* Transition for dot animation */
@@ -190,7 +190,7 @@
   margin-left: 25px;
 }
 .texts p {
-  margin: 20px;
+  /* margin: 20px; */
 }
 .texts button {
 /* padding-top: 50px; */

@@ -8,6 +8,7 @@ import linkIcon from '../../Assets/hyperlink-computer-icons-link-exchange-websit
 import image1 from '../../Assets/digital-nomad-girl-enjoying-working-with-computer-laptop-while-holiday-beach_962751-5920.jpg';
 import BluPrintLogo from '../../Assets/logoBluPrint.png';
 import amindi from '../../Assets/amindi1.jpg';
+import BSLogo from '../../Assets/BestSoftLogo.png'
 
 const projectsData = [
     {
@@ -15,6 +16,12 @@ const projectsData = [
         description: "My first custom project",
         image: BluPrintLogo,
         link: "https://www.blueprintstudio.ge/" // Corrected link format
+    },
+    {
+        name: "BestSoft",
+        description: "Our first business from best friends",
+        image: BSLogo,
+        link: "https://best-soft-seven.vercel.app/" // Corrected link format
     },
     {
         name: "Weather",
