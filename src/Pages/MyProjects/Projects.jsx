@@ -19,7 +19,7 @@ const projectsData = [
     },
     {
         name: "BestSoft",
-        description: "Our first business from best friends",
+        description: "Our first company from best friends",
         image: BSLogo,
         link: "https://best-soft-seven.vercel.app/" // Corrected link format
     },
