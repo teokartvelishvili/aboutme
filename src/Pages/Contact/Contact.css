@@ -6,7 +6,7 @@
     text-align: center;
     min-height: 100vh;
     /* height: 100%; */
-    background-color: #eae2b7;
+    /* background-color: #eae2b7; */
   }
   .dark .contact {
     background-color: #003049;
@@ -20,7 +20,7 @@
     height: 100%;
     /* background-image: url(../../Assets/teo\ logo\ light\ backg.png); */
     /* background-color: #fcbF49; */
-    background-color: #eae2b7;
+    /* background-color: #eae2b7; */
     opacity: 0.7; 
     z-index: -1; 
  }

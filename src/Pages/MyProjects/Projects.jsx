@@ -29,25 +29,25 @@ const projectsData = [
         image: amindi,
         link: "https://weather-phi-pink.vercel.app/" // Corrected link format
     },
-    {
-        name: "project3",
-        description: "Lorem ipsuicing elit. Modi, ducimus.",
-        image: image1,
-        link: "https://www.google.com" // Corrected link format
-    },
-    {
-        name: "project3",
-        description: "sectetur adipisicing elit. Modi, ducimus.",
-        image: image1,
-        link: "https://www.google.com" // Corrected link format
-    },
+    // {
+    //     name: "project3",
+    //     description: "Lorem ipsuicing elit. Modi, ducimus.",
+    //     image: image1,
+    //     link: "https://www.google.com" // Corrected link format
+    // },
+    // {
+    //     name: "project3",
+    //     description: "sectetur adipisicing elit. Modi, ducimus.",
+    //     image: image1,
+    //     link: "https://www.google.com" // Corrected link format
+    // },
 
-    {
-        name: "project4",
-        description: "Lorem ipsumicin, ducimus.",
-        image: image1,
-        link: "https://www.google.com" // Corrected link format
-    }
+    // {
+    //     name: "project4",
+    //     description: "Lorem ipsumicin, ducimus.",
+    //     image: image1,
+    //     link: "https://www.google.com" // Corrected link format
+    // }
 ];
 
 const Projects = () => {
@@ -59,7 +59,7 @@ const Projects = () => {
         <h1>My Projects </h1>
         
         </div>
-        <p id="projP">I will host and add projects step by step, until then you can see them on my GitHub</p>
+        <p id="projP">Other projects can be found on GitHub</p>
         <div id="boxesGrid">
                     {projectsData.map((service, index) => (
                 <div key={index} className="boxCont">

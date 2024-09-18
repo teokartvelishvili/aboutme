@@ -2,21 +2,24 @@
     display: flex;
     justify-content: space-between;
     /* background-color: #fcb149; */
-    background-color: #e9cc93;
+    /* background-color: #e9cc93; */
+    background-color: rgb(230, 228, 228);
     color: rgb(80, 54, 7);
-    text-shadow: 2px 1px 6px;
+    /* text-shadow: 2px 1px 6px; */
     position: relative;
+    border-bottom: 1px solid #011a28;
     }
 
     .dark .headerMainDiv {
         background-color: #011a28;
+        border-bottom: 1px solid #d62828;
     }
 
     .LogoCont
    {
-        height: 80px;
+        /* height: 40px; */
         width: 200px;
-        margin: 24px;
+        margin: 0px 24px;
         display: flex;
         z-index: 2;
     }
@@ -33,7 +36,7 @@
         transition: transform 0.2s ease;
     }
     .navbar {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 .ThemeToggle {
     position: absolute;

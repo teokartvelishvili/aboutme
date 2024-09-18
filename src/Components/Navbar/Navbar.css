@@ -2,7 +2,7 @@
 .NavCont {
   display: flex;
   justify-content: flex-end;
-  margin-top: 40px;
+  margin-top: 30px;
   padding-right: 80px; /* Increased padding for big screens */
 }
 
@@ -24,7 +24,7 @@
 }
 
 .UlCont li a:hover {
-  color: #F77F00;
+  color: #0f679a;
 }
 
 .dark .UlCont li a:hover {
