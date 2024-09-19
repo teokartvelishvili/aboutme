@@ -19,7 +19,7 @@
 
 .footerContainer.light {
     /* background-color: #e9cc93;  */
-    background-color: rgb(230, 228, 228);
+    background-color: #f6d1d1;
     color: #003049; /* Dark text for dark theme */
     border-top: 2px solid #011a28; /* Yellow border in dark theme */
 }

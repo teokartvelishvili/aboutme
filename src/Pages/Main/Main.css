@@ -39,21 +39,36 @@
  }
 
  .download {
-    background-color: #011a28;
+    /* background-color: #F77F00; */
+    background-color: #f6d1d1;
+    border: 1.5px solid #003049;
     border-radius: 20%;
     padding: 8px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+   
+  }
+ .dark .download {
+    /* background-color: #F77F00; */
+    background-color: #011a28;
+    border: 1.5px solid #d62828;
   }
   .leftDiv a {
-    color: #fcbf49;
+    color: #011a28;
     text-decoration: none;
     font-size: large;
+   
+  }
+ .dark .leftDiv a {
+    color: #F77F00;
+    text-decoration: none;
+    font-size: large;
+   
   }
   
   .download:hover {
-    background-color: #0a3f5e;
+    /* background-color: #0a3f5e; */
     transform: scale(1.05);
     transition: transform 0.2s ease;
   }
