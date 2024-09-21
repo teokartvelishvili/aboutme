@@ -1,17 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import MainPage from './Pages/Main/Main';
 import Projects from './Pages/MyProjects/Projects';
 import Contact from './Pages/Contact/Contact';
 import Layout from './Layouts/Layout.jsx';
-import { useLayoutEffect } from 'react';
 import { ThemeContext } from '../src/Hooks/ThemeContecs.js';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutMe from './Pages/AboutMe/AboutMe.jsx';
 
 function App() {
   const [theme, setTheme] = useState('light');
+  const [showAll, setShowAll] = useState(false); // State to manage the display of all pages
 
   useEffect(() => {
     const appEl = document.getElementById('app');
@@ -24,44 +23,66 @@ function App() {
     setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   };
 
+  const handleShowAll = () => {
+    setShowAll(true); // Set showAll to true to display all pages and hide the button
+  };
+
   return (
     <Router>
       <div className="App" id="app">
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <Layout>
-                  <MainPage />
-                </Layout>
-              }
-            />
-            <Route
-              path="/about"
-              element={
-                <Layout>
-                  <AboutMe/>
-                </Layout>
-              }
-            />
-            <Route
-              path="/projects"
-              element={
-                <Layout>
-                  <Projects />
-                </Layout>
-              }
-            />
-            <Route
-              path="/contact"
-              element={
-                <Layout>
-                  <Contact />
-                </Layout>
-              }
-            />
-          </Routes>
+          {showAll ? (
+            // When showAll is true, render all pages together
+            <Layout>
+              <MainPage />
+              <Projects />
+              <AboutMe />
+              <Contact />
+            </Layout>
+          ) : (
+            // Normal routing
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <Layout>
+                    <MainPage />
+                  </Layout>
+                }
+              />
+                <Route
+                  path="/projects"
+                  element={
+                    <Layout>
+                      <Projects />
+                    </Layout>
+                  }
+                />
+              <Route
+                path="/about"
+                element={
+                  <Layout>
+                    <AboutMe />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/contact"
+                element={
+                  <Layout>
+                    <Contact />
+                  </Layout>
+                }
+              />
+            </Routes>
+          )}
+
+          {/* Render the arrow button only when showAll is false */}
+          {!showAll && (
+            <div className="arrow-button" onClick={handleShowAll}>
+              Click for all pages
+            </div>
+          )}
         </ThemeContext.Provider>
       </div>
     </Router>
@@ -69,12 +90,6 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
 
 
 

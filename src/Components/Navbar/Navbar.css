@@ -1,4 +1,29 @@
-/* Styles for big screens */
+
+.nav-link {
+  text-decoration: none;
+  color: #003049;
+  background: none; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer; 
+}
+
+.nav-link:focus, .nav-link:hover {
+  outline: none; 
+}
+
+.dark .nav-link {
+  color: #F77F00;
+}
+
+.nav-link:hover {
+  color: #0f679a;
+}
+
+.dark .nav-link:hover {
+  color: #EAE2B7;
+}
+
 .NavCont {
   display: flex;
   justify-content: flex-end;

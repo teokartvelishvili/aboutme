@@ -53,7 +53,7 @@ const projectsData = [
 const Projects = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return(  
-    <div className={`projectsPage ${theme}`}>  
+    <div id="projects" className={`projectsPage ${theme}`}>  
     <div className={`projectsHead ${theme}`}>
         <div className={`projectsHeadIcon ${theme}`} ><img src={webIcon} alt="" /> </div>
         <h1>My Projects </h1>

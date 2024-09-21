@@ -22,7 +22,7 @@
 .projectsHead h1 {
   font-family: "Arial", sans-serif; /* Use a suitable font for the text */
   font-size: 3em; /* Adjust font size as needed */
-  color: #eae2b7;
+  color: white;
   text-shadow: 
     0 0 0 #7f79ee00,  /* Center */
     -2px -2px 0 rgba(0, 0, 0, 0.3),  /* Top Left - slightly transparent black shadow */

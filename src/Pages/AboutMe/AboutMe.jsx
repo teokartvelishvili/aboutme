@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div className={`aboutContainer ${theme}`} id="container">
 
-      <h1>About Me</h1>
+      <h1 id="about">About Me</h1>
 
       <Skills />
       <p>

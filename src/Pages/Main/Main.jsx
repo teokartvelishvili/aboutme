@@ -11,7 +11,7 @@ const MainPage = () => {
   const { theme, toggleTheme } = useContext(ThemeContext); // Access ThemeContext
 
   return (
-<div  className={`MainCont ${theme}`}>
+<div id="home"  className={`MainCont ${theme}`}>
     <div className={`MainCont2 ${theme}`}>
       <div className={`leftDiv ${theme}`}>
       <h3>hello!</h3>

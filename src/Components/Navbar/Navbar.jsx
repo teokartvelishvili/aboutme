@@ -1,10 +1,11 @@
-import React, { useState, useContext } from "react";
-import { ThemeContext } from "../../Hooks/ThemeContecs";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
+import React from 'react';
+import { useContext, useState } from 'react';
+import { ThemeContext } from '../../Hooks/ThemeContecs';
+import LinkButton from '../LinkButton/LinkButton'; // მისამართი აქ უნდა შეცვალო
 
 const Navbar = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -21,10 +22,10 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className={`UlCont ${isOpen ? "open" : ""}`}>
-                <li><Link to="/">Home</Link> </li>
-                <li><Link to="/Projects">My Projects</Link> </li>
-                <li><Link to="/About">About Me</Link> </li>
-                <li><Link to="/Contact">Contact</Link> </li>
+                <li><LinkButton href="/" sectionId="#home" className="nav-link">Home</LinkButton></li>
+                <li><LinkButton href="/Projects" sectionId="#projects" className="nav-link">My Projects</LinkButton></li>
+                <li><LinkButton href="/About" sectionId="#about" className="nav-link">About Me</LinkButton></li>
+                <li><LinkButton href="/Contact" sectionId="#contact" className="nav-link">Contact</LinkButton></li>
             </ul>
         </div>
     );

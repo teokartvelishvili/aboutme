@@ -42,3 +42,44 @@
     transform: rotate(360deg);
   }
 }
+.arrow-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  color: #011a28;
+  animation: bounce 1s infinite;
+  user-select: none;
+  z-index: 1000;
+}
+.dark .arrow-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  color: #d62828;
+  animation: bounce 1s infinite;
+  user-select: none;
+  z-index: 1000;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+.arrow-button:hover {
+  color: #f85d5d;
+}
