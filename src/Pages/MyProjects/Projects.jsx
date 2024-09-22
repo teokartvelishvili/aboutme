@@ -60,7 +60,7 @@ const Projects = () => {
         
         </div>
         <p id="projP">Other projects can be found on GitHub</p>
-        <div id="boxesGrid">
+        <div className="boxGrid" id="boxesGrid">
                     {projectsData.map((service, index) => (
                 <div key={index} className="boxCont">
                     <div className="box"><img src={service.image} alt="" /></div>
