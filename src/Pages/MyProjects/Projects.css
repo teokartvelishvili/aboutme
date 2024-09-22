@@ -221,7 +221,7 @@
   }
 
   .box {
-    height: 172px;
+    max-height: 190px;
     width: 90vh;
   }
 
@@ -249,7 +249,18 @@
     background-color: #003049;
   }
 
-  .projectsPage {
+  /* .projectsPage {
     min-height: 220vh;
-  }
+  } */
 }
+/* @media (max-width: 500px) {
+  .box img {
+    height: 100px; 
+    width: auto;
+    border: none;
+  }
+
+  .hoverBox {
+    height: 100px;
+  }
+} */
