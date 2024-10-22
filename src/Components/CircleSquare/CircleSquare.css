@@ -1,0 +1,44 @@
+.moving-square-with-words {
+    position: relative;
+    width: 90vw;
+    height: 70vh;
+    background-color: lightgrey;
+    overflow: hidden;
+  }
+  
+  .pricing-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Set to full height of the square */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: transparent; /* Make container color transparent */
+  }
+  
+  .pricing-letter {
+    margin: 0 5px; /* Add margin between letters */
+    font-size: 120px; /* Large font size for the letters */
+    font-weight: bold;
+    color: pink; /* Pink color for the letters */
+    -webkit-text-stroke: 2px yellow; /* Yellow outline */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth transitions */
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .pricing-letter.hovered {
+    color: lightblue; /* Change color on hover */
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  .moving-circle {
+    transition: transform 0.2s ease-out;
+  }
+  
+  .moving-word {
+    transition: transform 0.2s ease-out;
+  }
+  

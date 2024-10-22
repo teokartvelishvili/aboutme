@@ -1,0 +1,23 @@
+.circle {
+    position: absolute;
+    /* border-radius: 50%; */
+    /* background: rgba(234, 64, 115, 0.5); */
+    border: 1px solid rgba(234, 64, 115, 0.5);
+    pointer-events: none;
+    animation: blow 2.5s forwards; /* ხანგრძლივობა 1.5s-დან 2.5s-მდე გაიზარდა */
+    z-index: -2;
+  }
+  
+  @keyframes blow {
+    0% {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -300%); /* -1000%-დან -300%-მდე შემცირდა */
+      opacity: 0;
+      filter: hue-rotate(720deg);
+    }
+  }
+  

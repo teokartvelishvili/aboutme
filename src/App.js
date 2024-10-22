@@ -30,6 +30,7 @@ function App() {
   return (
     <Router>
       <div className="App" id="app">
+      
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
           {showAll ? (
             // When showAll is true, render all pages together

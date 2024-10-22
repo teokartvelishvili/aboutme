@@ -2,7 +2,9 @@ import React, { useState, useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
 import "./Main.css"
 // import TEO from '../../Assets/teo3.png';
-import TEO from '../../Assets/TEO.jpg'
+import TEO from '../../Assets/TEO.jpg';
+import CircleEffect from "../../Components/CircleEffect/CircleEffect";
+import CircleSquare from "../../Components/CircleSquare/CircleSquare";
 
 import CV from '../../Assets/CV-Teona Kartvelishvili.pdf';
 import footerImg from '../../Assets/paper-text-illustration-the-background-of-the-knowledge-in-the-book-1ce8854c8bc28769619eda06469bf70d.png'
@@ -12,6 +14,8 @@ const MainPage = () => {
 
   return (
 <div id="home"  className={`MainCont ${theme}`}>
+<CircleEffect />
+{/* <CircleSquare /> */}
     <div className={`MainCont2 ${theme}`}>
       <div className={`leftDiv ${theme}`}>
       <h3>hello!</h3>
@@ -27,6 +31,7 @@ const MainPage = () => {
     <div className="footer">
     <img src={footerImg} alt="" />
     </div>
+    
   </div>
   );
 };
