@@ -1,21 +1,26 @@
 .circle {
     position: absolute;
-    /* border-radius: 50%; */
-    /* background: rgba(234, 64, 115, 0.5); */
-    border: 1px solid rgba(234, 64, 115, 0.5);
+    border-radius: 20%;
+    background: #fcc049d4;
+    
+    /* border: 2px solid #FCC0497E; */
     pointer-events: none;
     animation: blow 2.5s forwards; /* ხანგრძლივობა 1.5s-დან 2.5s-მდე გაიზარდა */
     z-index: -2;
+    box-shadow: 0 0 5px #FCBF49, 
+                    0 0 25px #F77F00, 
+                    0 0 50px #F77F00, 
+                    0 0 200px #FCBF49; 
   }
   
   @keyframes blow {
     0% {
       transform: translate(-50%, -50%);
-      opacity: 1;
+      opacity: 0.3;
       filter: hue-rotate(0deg);
     }
     100% {
-      transform: translate(-50%, -300%); /* -1000%-დან -300%-მდე შემცირდა */
+      transform: translate(-50%, -10%); /* -1000%-დან -300%-მდე შემცირდა */
       opacity: 0;
       filter: hue-rotate(720deg);
     }

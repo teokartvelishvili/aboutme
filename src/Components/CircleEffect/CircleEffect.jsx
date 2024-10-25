@@ -9,14 +9,14 @@ const CircleEffect = () => {
       const y = e.clientY;
       circle.style.left = `${x}px`;
       circle.style.top = `${y}px`;
-      const size = Math.random() * 80; // ზომა ცოტა შემცირდა
-      circle.style.width = `${20 + size}px`;
-      circle.style.height = `${20 + size}px`;
+      const size = 5;
+      circle.style.width = `${5 + size}px`;
+      circle.style.height = `${5 + size}px`;
       circle.className = 'circle';
       document.body.appendChild(circle);
       setTimeout(() => {
         circle.remove();
-      }, 2600); // დრო კიდევ ცოტათი გაიზარდა
+      }, 5600); // დრო კიდევ ცოტათი გაიზარდა
     };
 
     document.addEventListener('mousemove', handleMouseMove);

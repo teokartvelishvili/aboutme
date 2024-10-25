@@ -66,7 +66,7 @@
     position: fixed; /* Changed to fixed */
     top: 22vh; /* Position from the top of the viewport */
     left: 1%; /* Position from the left of the viewport */
-    background-color: #f6d1d1;
+    background-color: #FCC0497E;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);

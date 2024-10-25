@@ -1,0 +1,91 @@
+.lampContainer {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem; /* ჰოვერისა და კლიკის სრული არეალი */
+    height: 17.5rem;
+    cursor: pointer;
+    z-index: 2;
+}
+.lamp {
+    position: relative;
+    margin: 0 auto;
+    width: 0.7rem;
+    height: 10rem;
+    background-image:
+        linear-gradient(#000000b3, #000000b3),
+        linear-gradient(#000000b3, #000000b3),
+        linear-gradient(#000000b3, #000000b3);
+    background-repeat: no-repeat;
+    background-size: 0.15rem 8rem, 0.4rem 0.8rem, 0.7rem 2rem;
+    background-position: 50% 0, 0.14rem 8rem, 0 8.8rem;
+    cursor: pointer;
+}
+
+.lamp::before,
+.lamp::after {
+    content: "";
+    position: absolute;
+}
+
+.lamp::before {
+    left: -1.65rem;
+    bottom: -4rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #ffffff08;
+    box-shadow: inset 2px 2px 10px #ffffff12;
+    transition: all 0.75s;
+}
+
+.light {
+    position: absolute;
+    top: 10.05rem;
+    left: 0.3rem;
+    width: 0;
+    height: 1.5rem;
+    border-right: 0.2rem solid #ffffff0d;
+    box-shadow: 0px 0px 50px #ffffff00;
+    transition: box-shadow 0.5s ease, background 0.5s ease;
+}
+
+.hovered {
+    box-shadow: 0px 0px 30px 10px #ffffff55;
+    background: radial-gradient(circle, #ffffff55 0%, #ffffff00 70%);
+}
+
+.lit {
+    box-shadow: 0px 0px 450px 70px #03e9f4;
+    background: radial-gradient(circle,#03e9f4 0%, #ffffff00 70%);
+}
+
+.light::before {
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    left: -0.55rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    border: 0.2rem solid #ffffff0d;
+}
+
+.switch {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 16.5em;
+    cursor: pointer;
+    z-index: 2;
+    appearance: none;
+}
+@media (max-width: 768px) {
+
+    .lampContainer {
+       display: none;
+    }
+    }

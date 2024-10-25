@@ -9,7 +9,7 @@ import image1 from '../../Assets/digital-nomad-girl-enjoying-working-with-comput
 import BluPrintLogo from '../../Assets/logoBluPrint.png';
 import amindi from '../../Assets/amindi1.jpg';
 import BSLogo from '../../Assets/BestSoftLogo.png';
-
+import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
 const projectsData = [
     {
         name: "BluPrint",
@@ -54,6 +54,8 @@ const Projects = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return(  
     <div id="projects" className={`projectsPage ${theme}`}>  
+     
+     {theme === 'dark' && <CanvasAnimation/>}
     <div className={`projectsHead ${theme}`}>
         <div className={`projectsHeadIcon ${theme}`} ><img src={webIcon} alt="" /> </div>
         <h1>My Projects </h1>

@@ -8,8 +8,10 @@
 .MainCont{
     position: relative;
     /* padding-top: 40px; */
-    
-   
+    /* z-index: 1; */
+}
+.dark .MainCont{
+    margin-top: -60px;
 }
 .MainCont2 {
     display: flex;
@@ -18,6 +20,19 @@
     /* height: 78vh; */
     position: relative; /* Set position to relative */
     min-height: 60vh;
+    margin-top: 40px;
+ }
+.dark .MainCont2 {
+    position: absolute;
+    /* z-index: 1; */
+    top: -180px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #FCBF49; Background color */
+    /* height: 78vh; */
+    position: relative; /* Set position to relative */
+    min-height: 60vh;
+    margin-top: 0;
  }
  
  .MainCont::before {
@@ -38,8 +53,7 @@
     background-color: #003049;
  }
 
- .download {
-    /* background-color: #F77F00; */
+ /* .download {
     background-color: #f6d1d1;
     border: 1.5px solid #003049;
     border-radius: 20%;
@@ -50,10 +64,12 @@
    
   }
  .dark .download {
-    /* background-color: #F77F00; */
     background-color: #011a28;
     border: 1.5px solid #d62828;
-  }
+  } */
+
+/* 
+  
   .leftDiv a {
     color: #011a28;
     text-decoration: none;
@@ -68,10 +84,167 @@
   }
   
   .download:hover {
-    /* background-color: #0a3f5e; */
     transform: scale(1.05);
     transition: transform 0.2s ease;
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: #181826;
+  } */
+
+  a.download {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin-top: 40px;
+    color: #003049;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    overflow: hidden;
+    border: 2px solid #FCBF49;
+}
+
+.dark a.download {
+    color: #FCBF49;
+    border-color: #D62828;
+}
+
+a.download:hover {
+    background: #FCBF49;
+    color: #050801;
+    box-shadow: 0 0 5px #FCBF49, 0 0 25px #FCBF49, 0 0 50px #FCBF49, 0 0 200px #FCBF49;
+    transform: scale(1.05);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+/* ანიმაციის ნაწილები */
+a.download span {
+    position: absolute;
+    display: block;
+}
+
+a.download span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #F77F00);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    50%, 100% {
+        left: 100%;
+    }
+}
+
+a.download span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #F77F00);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+    50%, 100% {
+        top: 100%;
+    }
+}
+
+a.download span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #F77F00);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+    50%, 100% {
+        right: 100%;
+    }
+}
+
+a.download span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #F77F00);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+    50%, 100% {
+        bottom: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .MainCont{
+        position: relative;
+        /* padding-top: 40px; */
+        z-index: -1;
+  }
+  .dark .leftDiv{
+    position: relative;
+    z-index: 1;
+  }
+  .dark .MainCont{
+    margin-top: 0px;
+}
+.dark .MainCont2 {
+    /* z-index: 1; */
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: relative; 
+    min-height: 60vh;
+    margin-top: 0;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .leftDiv  {
@@ -130,9 +303,12 @@ margin-right: 40px;
     .MainCont{
         position: relative;
         padding-top: 40px;
-        
-       
     }
+       .leftDiv{
+        position: relative;
+        z-index: 2;
+       }
+    
     .MainCont2 {
     flex-direction: column;
     align-items: center;
