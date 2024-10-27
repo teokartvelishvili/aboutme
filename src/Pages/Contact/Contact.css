@@ -1,17 +1,12 @@
 .contact {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* text-align: center; */
-    /* min-height: 100vh; */
-    /* display: flex; */
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    /* background-color: #011a28; */
   }
   .contact-form{
-    width: 580px;
+    width: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +20,7 @@
   .contact-form input,
   .contact-form textarea{
   position: absolute;
-  width: 400px;
+  width: 70vh;
   outline: none;
   font-size: 2.2em;
   padding: 0 30px;
@@ -35,12 +30,12 @@
   background: transparent;
   transition: 0.1s ease;
   z-index: 1111;
- min-width: 100vh;
+ min-width: 70vh;
 }
 .dark .contact-form input,
 .dark .contact-form textarea{
   position: absolute;
-  width: 400px;
+  /* width: 400px; */
   outline: none;
   font-size: 2.2em;
   padding: 0 30px;
@@ -50,7 +45,7 @@
   background: transparent;
   transition: 0.1s ease;
   z-index: 1111;
- min-width: 100vh;
+ /* min-width: 100vh; */
 }
 
 
@@ -74,6 +69,13 @@
   color: green;
   border:  4px solid green;
 }
+.contact-form textarea:focus,
+.contact-form textarea:valid{
+ font-size: 18px;
+ line-height: 28px;
+ min-height: 140px;
+ margin-bottom: 20px;
+}
 
 textarea:focus + .labelline,
 textarea:valid + .labelline,
@@ -94,7 +96,7 @@ textarea:valid + .labelline,
   .dark .contact {
     background-color: #003049;
   }
-  .contact::before {
+  /* .contact::before {
     content: "";
     position: absolute;
     top: 0;
@@ -103,7 +105,7 @@ textarea:valid + .labelline,
     height: 100%;
     opacity: 0.7; 
     z-index: -1; 
- }
+ } */
  .dark .contact::before {
   /* background-image: url(../../Assets/teo\ logo\ dark\ backgr.png); */
   background-color: #003049;
@@ -122,8 +124,8 @@ textarea:valid + .labelline,
   #socIcons{
     display: flex;
     justify-content: center;
-    gap: 22%;
-    margin: 40px;
+    gap: 15%;
+    margin: 5%;
     margin-bottom: 70px;
   }
   
@@ -185,7 +187,7 @@ textarea:valid + .labelline,
   
 
   .contact-form button {
-    width: 100vh;
+    width: 70vh;
     background-color: #003049;
     color: #fff;
     font-size: 40px;
@@ -199,6 +201,10 @@ textarea:valid + .labelline,
   }
   .dark .contact-form button {
     background-color: #011a28;
+  }
+  .light .contact-form button {
+    background: linear-gradient(90deg, #fcc049a2, #f780005e);
+    border: 2px solid #fcbf49;
   }
   
   .contact-form button:hover {

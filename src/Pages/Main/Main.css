@@ -100,7 +100,7 @@
     background: #181826;
   } */
 
-  a.download {
+  a.download{
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -212,14 +212,17 @@ a.download span:nth-child(4) {
 
 @media (max-width: 768px) {
 
-    .MainCont{
+.MainCont{
         position: relative;
         /* padding-top: 40px; */
-        z-index: -1;
+        
   }
-  .dark .leftDiv{
+  a.download{
     position: relative;
-    z-index: 1;
+    
+  }
+  .leftDiv{
+    position: relative;
   }
   .dark .MainCont{
     margin-top: 0px;

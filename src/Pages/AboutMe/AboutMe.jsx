@@ -11,6 +11,9 @@ const AboutMe = () => {
       <h1 id="about">About Me</h1>
 
       <Skills />
+
+      <div className="aboutMeTextsCont">
+        <div className="aboutMeTexts">
       <p>
         Hello! I'm <strong>Teona Kartvelishvili</strong>, a passionate web developer on an exciting journey of transformation and growth. A little over 2 years ago, I embarked on my programming adventure, immersing myself in the world of technology. I've dedicated myself to mastering web development, with strong skills in <strong className="highlight">HTML, CSS, JavaScript,</strong> and <strong className="highlight">React</strong>. Additionally, I have a foundational understanding of <strong>Angular, C#, Python</strong>, and databases like <strong>Microsoft SQL</strong> and <strong>PostgreSQL</strong>. Recently, I've begun exploring <em>ethical hacking</em>, and as of the past month, I have started diving into <strong className="highlight">UI/UX design</strong> and <strong>Node.js</strong>, which I plan to specialize in as I move forward in my career.
       </p>
@@ -23,6 +26,14 @@ const AboutMe = () => {
       <p>
         Every day, I am driven by my love for learning and the endless possibilities within the tech industry. I'm excited to continue growing, tackling new challenges, and contributing to innovative projects. Welcome to my portfolio, where you can witness the evolution of my skills and the dedication I bring to my work.
       </p>
+      </div>
+      <div>
+  <div className="ball-1"></div>
+<div className="ball-2"></div>
+<div className="ball-3"></div>
+
+      </div>
+      </div>
     </div>
   );
 };

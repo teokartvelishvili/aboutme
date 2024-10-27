@@ -82,6 +82,87 @@
 .dark #container .important {
   color: #d62828; /* Use red for very important words in dark mode */
 }
+/* #container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.aboutMeTextsCont {
+  /* display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  background: rgba(191, 191, 191, 0.1);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 10px rgba(191, 191, 191, 0.4);
+  border-radius: 10px;
+  padding: 10px; */
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+ 
+}
+.aboutMeTexts {
+  background: rgba(191, 191, 191, 0.1);
+  backdrop-filter: blur(40px); /* კონტეინერზე ვრცელდება ბლარი */
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 10px rgba(191, 191, 191, 0.4);
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  z-index: 3;
+}
+
+.aboutContainer .ball-1,
+.aboutContainer .ball-2,
+.aboutContainer .ball-3 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+  /* ბლარი აქ აღარ გამოიყენება */
+}
+
+/* პირველი ბურთი */
+.aboutContainer .ball-1 {
+  width: 250px;
+  height: 250px;
+  background-color: #f77f00;
+  top: -40px;
+  left: -40px;
+}
+
+/* მეორე ბურთი */
+.aboutContainer .ball-2 {
+  width: 170px;
+  height: 170px;
+  background-color: #d62828;
+  bottom: -20px;
+  right: -30px;
+}
+
+/* მესამე ბურთი */
+.aboutContainer .ball-3 {
+  width: 100px;
+  height: 100px;
+  background-color: #03e9f4;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
 
 #container p em {
   font-style: oblique;

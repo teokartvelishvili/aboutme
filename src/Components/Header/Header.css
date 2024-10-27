@@ -15,10 +15,10 @@
         justify-content: space-between;
         background: linear-gradient(90deg, #fcc049a2, #f780005e); /* ნარინჯისფერი გრადიენტი */
         color: #003049; /* ტექსტის მუქი ფერი */
-        box-shadow: 0 0 5px #FCBF49, 
-                    0 0 25px #F77F00, 
-                    0 0 50px #F77F00, 
-                    0 0 200px #FCBF49; /* ჩრდილების ეფექტი ღილაკიდან */
+       box-shadow: -5px 0 5px #FCBF49, 
+            -25px 0 25px #F77F00, 
+            -50px 0 50px #F77F00, 
+            -200px 0 200px #FCBF49;; 
         -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); /* ანარეკლის ეფექტი */
         position: relative;
         border-bottom: 1px solid #FCBF49; /* ქვედა ბორდერი ღია ყვითელი */
@@ -29,10 +29,11 @@
         display: flex;
         justify-content: space-between;
         color: #003049; /* ტექსტის მუქი ფერი */
-        box-shadow: 0 0 5px #03e9f4, 
-        0 0 25px #03e9f4, 
-        0 0 50px #03e9f4, 
-        0 0 200px #03e9f4; /* ნეონის შუქის ეფექტი */
+        box-shadow: -5px 0 5px #03e9f4, 
+        -25px 0 25px #03e9f4, 
+        -50px 0 50px #03e9f4, 
+        -200px 0 200px #03e9f4; /* ნეონის შუქის ეფექტი */
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); /* ანარეკლის ეფექტი */
         position: relative;
         border-bottom: 1px solid #FCBF49; /* ქვედა ბორდერი ღია ყვითელი */
         padding: 10px 20px;

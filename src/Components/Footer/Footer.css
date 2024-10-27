@@ -12,9 +12,16 @@
 }
 
 .footerContainer.dark {
-    background-color: #011a28; /* Dark background for light theme */
-    color: #eae2b7; /* Light text for light theme */
-    border-top: 2px solid #d62828; /* Red border in light theme */
+        background-color: #011a28;
+        justify-content: space-between;
+        box-shadow: -5px 0 5px #03e9f4, 
+        -25px 0 25px #03e9f4, 
+        -50px 0 50px #03e9f4, 
+        -200px 0 200px #03e9f4;  
+        position: relative;
+        border-top: 1px solid #d62828; /* ქვედა ბორდერი ღია ყვითელი */
+        padding: 10px 20px;
+        transition: all 0.5s ease; /* რბილი გადასვლა */
 }
 
 .footerContainer.light {
@@ -22,10 +29,10 @@
     color: #003049; /* Dark text for dark theme */
         justify-content: space-between;
         background: linear-gradient(90deg, #fcc049a2, #f780005e); /* ნარინჯისფერი გრადიენტი */
-        box-shadow: 0 0 5px #FCBF49, 
-                    0 0 25px #F77F00, 
-                    0 0 50px #F77F00, 
-                    0 0 200px #FCBF49; /* ჩრდილების ეფექტი ღილაკიდან */
+        box-shadow: -5px 0 5px #FCBF49, 
+            -25px 0 25px #F77F00, 
+            -50px 0 50px #F77F00, 
+            -200px 0 200px #FCBF49;
         position: relative;
         border-top: 1px solid #FCBF49; /* ქვედა ბორდერი ღია ყვითელი */
         padding: 10px 20px;
