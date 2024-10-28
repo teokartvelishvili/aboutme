@@ -107,6 +107,8 @@
   align-self: center;
   justify-self: center;
   margin-bottom: 40px;
+  /* align-items: center;
+  justify-content: center; */
  
 }
 .aboutMeTexts {
@@ -185,5 +187,9 @@
 
   #container p {
       font-size: 1em;
+  }
+  .aboutMeTextsCont{
+    min-width: 100vw;
+  
   }
 }

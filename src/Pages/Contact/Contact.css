@@ -225,13 +225,42 @@ textarea:valid + .labelline,
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
   
-  @media screen and (min-width: 800px) {
-    .contact-form input[type="text"],
-    .contact-form input[type="email"],
-    .contact-form textarea {
-      width: 30%;
+  @media screen and (max-width: 620px) {
+
+  .contact-form input,
+  .contact-form textarea{
+  /* position: absolute; */
+  width: 90%;
+  margin: 5%;
+}
+    /* .light .contact-form button {
+      display: flex;
+      justify-self: center;
+      align-self: center;
+      justify-content: center;
+      
+    } */
+    .dark .contact-form button {
+      width: 90%;
+      display: flex;
+      justify-self: center;
+      align-self: center;
+      justify-content: center;
+      
     }
-    .socIcons img {
-      width: 12%;
+    .light .contact-form button {
+      width: 90%;
+      display: flex;
+      justify-self: center;
+      align-self: center;
+      justify-content: center;
+      
+    }
+    #socIcons{
+      display: flex;
+      justify-content: center;
+      gap: 2%;
+      margin: 2%;
+      margin-bottom: 70px;
     }
   }

@@ -125,5 +125,8 @@
 .skills {
   width: 100%;
 }
+.skill {
+  justify-content: space-between;
+}
     
   }
