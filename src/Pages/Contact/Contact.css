@@ -245,7 +245,7 @@ textarea:valid + .labelline,
     /* contact-form სტილები პატარა ეკრანისთვის */
     .contact-form {
       margin-top: 80px;
-      width: 120%; /* სიგანის ზომა უფრო გაიზარდა */
+      width: 99%; /* სიგანის ზომა უფრო გაიზარდა */
       gap: 40px; /* დაშორება ელემენტებს შორის */
     }
     
