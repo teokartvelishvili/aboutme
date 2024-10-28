@@ -226,41 +226,78 @@ textarea:valid + .labelline,
   }
   
   @media screen and (max-width: 620px) {
-
-  .contact-form input,
-  .contact-form textarea{
-  /* position: absolute; */
-  width: 90%;
-  margin: 5%;
-}
-    /* .light .contact-form button {
-      display: flex;
-      justify-self: center;
-      align-self: center;
-      justify-content: center;
-      
-    } */
-    .dark .contact-form button {
-      width: 90%;
-      display: flex;
-      justify-self: center;
-      align-self: center;
-      justify-content: center;
-      
+  
+    /* ძირითადი contact container */
+    .contact {
+      padding: 10px;
+      min-height: 100vh;
     }
-    .light .contact-form button {
-      width: 90%;
-      display: flex;
-      justify-self: center;
-      align-self: center;
-      justify-content: center;
-      
+    
+    /* contact-form სტილები პატარა ეკრანისთვის */
+    .contact-form {
+      width: 90vw; /* სიგანე მორგებულია პატარა ეკრანზე */
+      gap: 15px;
     }
-    #socIcons{
-      display: flex;
-      justify-content: center;
-      gap: 2%;
-      margin: 2%;
-      margin-bottom: 70px;
+    
+    .entryarea {
+      height: 60px;
+      line-height: 60px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 1.4em; /* ტექსტის ზომის შემცირება */
+      line-height: 60px; /* line-height მორგებულია */
+      padding: 0 20px; /* padding შემცირებულია */
+      width: 100%; /* სიგანე მორგებულია */
+    }
+  
+    /* label სტილები პატარა ეკრანისთვის */
+    .labelline {
+      font-size: 1.2em; /* ტექსტის ზომა მცირდება */
+      padding: 0 15px;
+      margin: 0;
+    }
+  
+    /* სოც. მედია ხატულების კონტეინერი */
+    #socIcons {
+      gap: 10px;
+      margin: 20px 0;
+    }
+  
+    .socIcons img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    /* ღილაკი */
+    .contact-form button {
+      width: 90vw;
+      font-size: 1.4em;
+      padding: 15px;
+      margin: 40px 0;
+    }
+  
+    .contact-form button:hover {
+      box-shadow: 0 0 5px #FCBF49, 0 0 15px #FCBF49, 0 0 30px #FCBF49, 0 0 100px #FCBF49;
+      transform: scale(1.03); /* მცირე ზომის გადიდება */
+    }
+  
+    /* .dark mode ღილაკისთვის */
+    .dark .contact-form button:hover {
+      box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 100px #03e9f4;
+      transform: scale(1.03);
+    }
+  
+    /* კონტაქტის სათაური */
+    .contact h1 {
+      font-size: 1.8em; /* სათაურის ზომის შემცირება */
+      margin: 20px 0 60px;
+    }
+    
+    /* მცირე ეკრანისთვის საკონტაქტო ფონის ჩრდილის სტილი */
+    .dark .contact::before {
+      background-color: #003049;
     }
   }
+  
