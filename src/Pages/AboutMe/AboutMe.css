@@ -189,7 +189,18 @@
       font-size: 1em;
   }
   .aboutMeTextsCont{
-    min-width: 100vw;
+    min-width: 95vw;
   
   }
+  /* პირველი ბურთი */
+.aboutContainer .ball-1 {
+  top: -40px;
+  left: 0px;
+}
+
+/* მეორე ბურთი */
+.aboutContainer .ball-2 {
+  bottom: -20px;
+  right: 0px;
+}
 }
