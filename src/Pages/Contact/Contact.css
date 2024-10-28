@@ -225,6 +225,14 @@ textarea:valid + .labelline,
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
   
+ 
+
+
+
+
+
+
+
   @media screen and (max-width: 620px) {
   
     /* ძირითადი contact container */
@@ -235,7 +243,7 @@ textarea:valid + .labelline,
     
     /* contact-form სტილები პატარა ეკრანისთვის */
     .contact-form {
-      width: 90vw; /* სიგანე მორგებულია პატარა ეკრანზე */
+      width: 90%; /* სიგანე მორგებულია პატარა ეკრანზე */
       gap: 15px;
     }
     
@@ -246,16 +254,18 @@ textarea:valid + .labelline,
     
     .contact-form input,
     .contact-form textarea {
-      font-size: 1.4em; /* ტექსტის ზომის შემცირება */
-      line-height: 60px; /* line-height მორგებულია */
-      padding: 0 20px; /* padding შემცირებულია */
-      width: 100%; /* სიგანე მორგებულია */
+      font-size: 1.2em; /* ტექსტის ზომის შემცირება */
+      line-height: 40px; /* line-height მორგებულია */
+      padding: 10px 15px; /* padding შემცირებულია */
+      width: 100%; /* სიგანე მორგებულია პატარა ეკრანზე */
+      min-width: unset; /* ფიქსირებული სიგანის წაშლა */
+      box-sizing: border-box; /* padding ზუსტი აღქმა */
     }
   
     /* label სტილები პატარა ეკრანისთვის */
     .labelline {
-      font-size: 1.2em; /* ტექსტის ზომა მცირდება */
-      padding: 0 15px;
+      font-size: 1em; /* ტექსტის ზომა მცირდება */
+      padding: 0 10px;
       margin: 0;
     }
   
@@ -266,15 +276,15 @@ textarea:valid + .labelline,
     }
   
     .socIcons img {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
     }
   
     /* ღილაკი */
     .contact-form button {
-      width: 90vw;
-      font-size: 1.4em;
-      padding: 15px;
+      width: 90%;
+      font-size: 1.2em;
+      padding: 10px 15px;
       margin: 40px 0;
     }
   
@@ -291,13 +301,8 @@ textarea:valid + .labelline,
   
     /* კონტაქტის სათაური */
     .contact h1 {
-      font-size: 1.8em; /* სათაურის ზომის შემცირება */
-      margin: 20px 0 60px;
-    }
-    
-    /* მცირე ეკრანისთვის საკონტაქტო ფონის ჩრდილის სტილი */
-    .dark .contact::before {
-      background-color: #003049;
+      font-size: 1.6em; /* სათაურის ზომის შემცირება */
+      margin: 20px 0 40px;
     }
   }
   
