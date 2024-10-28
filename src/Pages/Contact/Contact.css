@@ -237,13 +237,14 @@ textarea:valid + .labelline,
 
     /* contact კონტეინერი */
     .contact {
-      margin-top: 50px;
+      
       padding: 20px;
       min-height: 100vh;
     }
   
     /* contact-form სტილები პატარა ეკრანისთვის */
     .contact-form {
+      margin-top: 50px;
       width: 120%; /* სიგანის ზომა უფრო გაიზარდა */
       gap: 40px; /* დაშორება ელემენტებს შორის */
     }
