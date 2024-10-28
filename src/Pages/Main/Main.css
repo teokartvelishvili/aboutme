@@ -2,7 +2,7 @@
 .MainCont{
     position: relative;
     /* padding-top: 40px; */
-    z-index: -1;
+    z-index: 1;
 }
 .dark .MainCont{
     margin-top: -60px;
