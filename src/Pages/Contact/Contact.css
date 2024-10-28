@@ -234,58 +234,57 @@ textarea:valid + .labelline,
 
 
   @media screen and (max-width: 620px) {
-  
-    /* ძირითადი contact container */
+
+    /* contact კონტეინერი */
     .contact {
-      padding: 10px;
+      padding: 20px;
       min-height: 100vh;
     }
-    
+  
     /* contact-form სტილები პატარა ეკრანისთვის */
     .contact-form {
-      width: 90%; /* სიგანე მორგებულია პატარა ეკრანზე */
-      gap: 15px;
+      width: 95%; /* სიგანის ზომა უფრო გაიზარდა */
+      gap: 20px; /* დაშორება ელემენტებს შორის */
     }
     
     .entryarea {
-      height: 60px;
-      line-height: 60px;
+      height: 70px;
+      line-height: 70px;
     }
     
     .contact-form input,
     .contact-form textarea {
-      font-size: 1.2em; /* ტექსტის ზომის შემცირება */
-      line-height: 40px; /* line-height მორგებულია */
-      padding: 10px 15px; /* padding შემცირებულია */
+      font-size: 1.4em; /* ტექსტის ზომის მცირე გაზრდა */
+      line-height: 50px;
+      padding: 12px 20px; /* padding გაიზარდა */
       width: 100%; /* სიგანე მორგებულია პატარა ეკრანზე */
       min-width: unset; /* ფიქსირებული სიგანის წაშლა */
       box-sizing: border-box; /* padding ზუსტი აღქმა */
     }
   
-    /* label სტილები პატარა ეკრანისთვის */
+    /* label სტილები */
     .labelline {
-      font-size: 1em; /* ტექსტის ზომა მცირდება */
-      padding: 0 10px;
-      margin: 0;
+      font-size: 1.2em;
+      padding: 0 15px;
     }
   
     /* სოც. მედია ხატულების კონტეინერი */
     #socIcons {
-      gap: 10px;
-      margin: 20px 0;
+      gap: 12px;
+      margin: 30px 0;
     }
   
     .socIcons img {
-      width: 25px;
-      height: 25px;
+      width: 30px;
+      height: 30px;
     }
   
     /* ღილაკი */
     .contact-form button {
-      width: 90%;
-      font-size: 1.2em;
-      padding: 10px 15px;
-      margin: 40px 0;
+      width: 95%;
+      font-size: 1.4em;
+      padding: 15px 20px;
+      margin: 50px 0 0 0; /* ზედა დაშორება ღილაკისგან */
     }
   
     .contact-form button:hover {
@@ -301,8 +300,8 @@ textarea:valid + .labelline,
   
     /* კონტაქტის სათაური */
     .contact h1 {
-      font-size: 1.6em; /* სათაურის ზომის შემცირება */
-      margin: 20px 0 40px;
+      font-size: 1.8em;
+      margin: 30px 0 40px;
     }
   }
   
