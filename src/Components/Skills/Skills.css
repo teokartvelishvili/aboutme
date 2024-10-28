@@ -118,7 +118,10 @@
       gap: 8vw;
       width: 100%;
     } */
-    
+    .level-bar {
+      width: 20vh;
+  
+    }  
 .skills {
   width: 100%;
 }
