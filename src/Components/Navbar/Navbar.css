@@ -6,10 +6,12 @@
   border: none; 
   padding: 0; 
   cursor: pointer; 
+  position: relative;
+  z-index: 2;
 }
 
 .nav-link:focus, .nav-link:hover {
-  outline: none; 
+  outline: none;
 }
 
 .dark .nav-link {
@@ -36,7 +38,7 @@
   grid-auto-flow: column; 
   grid-gap: 40px; 
   list-style: none;
-  z-index: 2;
+  z-index: 5 ;
 }
 
 .UlCont li a {
@@ -46,6 +48,7 @@
 
 .dark .UlCont li a {
   color: #F77F00;
+  position: relative;
 }
 
 .UlCont li a:hover {
@@ -55,6 +58,7 @@
 .dark .UlCont li a:hover {
   color: #EAE2B7;
 }
+
 
 /* Styles for small screens */
 
@@ -114,6 +118,7 @@
     justify-content: space-between;
     width: 30px;
     height: 20px;
+    
   }
 
   .burger .line {
@@ -121,6 +126,7 @@
     height: 3px;
     background-color: #003049;
     transition: all 0.3s ease;
+ 
   }
 
   .dark .burger .line {

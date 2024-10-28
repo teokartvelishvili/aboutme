@@ -1,14 +1,8 @@
-/* .MainCont {
-   display: flex;
-   justify-content: space-around;
 
-   background-image: url(../../Assets/teo\ logo\ light\ backg.png);
-   height: 78vh;
-} */
 .MainCont{
     position: relative;
     /* padding-top: 40px; */
-    /* z-index: 1; */
+    z-index: -1;
 }
 .dark .MainCont{
     margin-top: -60px;
@@ -309,7 +303,7 @@ margin-right: 40px;
     }
        .leftDiv{
         position: relative;
-        z-index: 2;
+        z-index: 1;
        }
     
     .MainCont2 {
