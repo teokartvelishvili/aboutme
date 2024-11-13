@@ -10,6 +10,7 @@ import BluPrintLogo from '../../Assets/logoBluPrint.png';
 import amindi from '../../Assets/amindi1.jpg';
 import BSLogo from '../../Assets/BestSoftLogo.png';
 import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
+import pricetracker from '../../Assets/pricetracker.png'
 const projectsData = [
     {
         name: "BluPrint",
@@ -28,6 +29,12 @@ const projectsData = [
         description: "Weather in georgia",
         image: amindi,
         link: "https://weather-phi-pink.vercel.app/" // Corrected link format
+    },
+    {
+        name: "pricetracker",
+        description: "React app for managing product prices and profit calculation with PDF export",
+        image: pricetracker,
+        link: "https://pricetracker-lemon.vercel.app/" // Corrected link format
     },
     // {
     //     name: "project3",
