@@ -10,7 +10,8 @@ import BluPrintLogo from '../../Assets/logoBluPrint.png';
 import amindi from '../../Assets/amindi1.jpg';
 import BSLogo from '../../Assets/BestSoftLogo.png';
 import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
-import pricetracker from '../../Assets/pricetracker.png'
+import pricetracker from '../../Assets/pricetracker.png';
+import FishHunt from '../../Assets/fh.png';
 const projectsData = [
     {
         name: "BluPrint",
@@ -35,6 +36,12 @@ const projectsData = [
         description: "React app for managing product prices and profit calculation with PDF export",
         image: pricetracker,
         link: "https://pricetracker-lemon.vercel.app/" // Corrected link format
+    },
+    {
+        name: "FishHunt",
+        description: "My First UI/UX Project",
+        image: FishHunt,
+        link: "https://www.behance.net/gallery/213586383/FishHunt" // Corrected link format
     },
     // {
     //     name: "project3",
