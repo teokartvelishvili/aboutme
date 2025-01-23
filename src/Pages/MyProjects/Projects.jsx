@@ -12,37 +12,53 @@ import BSLogo from '../../Assets/BestSoftLogo.png';
 import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
 import pricetracker from '../../Assets/pricetracker.png';
 import FishHunt from '../../Assets/fh.png';
+import PixelStudio from '../../Assets/Yellow.png';
+import Odedoo from '../../Assets/odedoo.png';
 const projectsData = [
     {
-        name: "BluPrint",
-        description: "My first custom project",
-        image: BluPrintLogo,
-        link: "https://www.blueprintstudio.ge/" // Corrected link format
+        name: "BestSoft",
+        description: "Our first company, founded by best friends, focusing on delivering innovative solutions.",
+        image: BSLogo,
+        link: "https://bestsoft.ge"
     },
     {
-        name: "BestSoft",
-        description: "Our first company from best friends",
-        image: BSLogo,
-        link: "https://best-soft-seven.vercel.app/" // Corrected link format
+        name: "PixelStudio",
+        description: "A creative platform developed using UI design principles and the React framework.",
+        image: PixelStudio,
+        link: "https://pixelstudio-fawn.vercel.app"
+    },
+    {
+        name: "OdedOO",
+        description: "A joint procurement platform built with Next.js, streamlining purchasing processes.",
+        image: Odedoo,
+        link: "https://odedoo.com"
+    },
+    {
+        name: "BluPrint",
+        description: "A fully customized project showcasing unique design and functionality.",
+        image: BluPrintLogo,
+        link: "https://www.blueprintstudio.ge/"
     },
     {
         name: "Weather",
-        description: "Weather in georgia",
+        description: "Application providing real-time weather updates for Georgia.",
         image: amindi,
-        link: "https://weather-phi-pink.vercel.app/" // Corrected link format
+        link: "https://weather-phi-pink.vercel.app/"
     },
     {
-        name: "pricetracker",
-        description: "React app for managing product prices and profit calculation with PDF export",
+        name: "PriceTracker",
+        description: "A dynamic app for managing product prices, calculating profits, and exporting reports in PDF format.",
         image: pricetracker,
-        link: "https://pricetracker-lemon.vercel.app/" // Corrected link format
+        link: "https://pricetracker-lemon.vercel.app/"
     },
     {
         name: "FishHunt",
-        description: "My First UI/UX Project",
+        description: "My first UI/UX design project, focused on creating a seamless user experience for fishing, hunting and camping enthusiasts.",
         image: FishHunt,
-        link: "https://www.behance.net/gallery/213586383/FishHunt" // Corrected link format
-    },
+        link: "https://www.behance.net/gallery/213586383/FishHunt"
+    }
+
+
     // {
     //     name: "project3",
     //     description: "Lorem ipsuicing elit. Modi, ducimus.",
@@ -69,7 +85,7 @@ const Projects = () => {
     return(  
     <div id="projects" className={`projectsPage ${theme}`}>  
      
-     {theme === 'dark' && <CanvasAnimation/>}
+     {/* {theme === 'dark' && <CanvasAnimation/>} */}
     <div className={`projectsHead ${theme}`}>
         <div className={`projectsHeadIcon ${theme}`} ><img src={webIcon} alt="" /> </div>
         <h1>My Projects </h1>

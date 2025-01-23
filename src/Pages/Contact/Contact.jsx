@@ -106,7 +106,7 @@ const Contact = () => {
                 required
                 >
               </textarea>
-                <div className="labelline"> Your Message</div>
+                <div className="labelline"> Message</div>
               
             </div>
             <button type="submit">Send</button>
