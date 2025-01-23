@@ -14,25 +14,24 @@ const AboutMe = () => {
 
       <div className="aboutMeTextsCont">
         <div className="aboutMeTexts">
-      <p>
-        Hello! I'm <strong>Teona Kartvelishvili</strong>, a passionate web developer on an exciting journey of transformation and growth. A little over 2 years ago, I embarked on my programming adventure, immersing myself in the world of technology. I've dedicated myself to mastering web development, with strong skills in <strong className="highlight">HTML, CSS, JavaScript,</strong> and <strong className="highlight">React</strong>. Additionally, I have a foundational understanding of <strong>Angular, C#, Python</strong>, and databases like <strong>Microsoft SQL</strong> and <strong>PostgreSQL</strong>. Recently, I've begun exploring <em>ethical hacking</em>, and as of the past month, I have started diving into <strong className="highlight">UI/UX design</strong> and <strong>Node.js</strong>, which I plan to specialize in as I move forward in my career.
-      </p>
-      <p>
-        Before diving into the world of coding, I had a fulfilling career as a <strong className="important">pharmacist</strong>. While I excelled in the pharmaceutical field, I reached a point where I felt the need for a change, a challenge, and a new way to channel my enthusiasm for technology. The decision to step out of my comfort zone and turn my passion for computers into a profession was a defining moment in my life.
-      </p>
-      <p>
-        Five months ago, I made the bold decision to leave my successful career as a pharmacist to fully commit to programming. This shift has allowed me to focus entirely on my studies and projects, striving to be highly competitive in the tech market. My journey has been fueled by various <strong className="highlight">funding opportunities</strong> and <strong className="highlight">scholarships</strong>, which have enabled me to access a wealth of knowledge and resources.
-      </p>
-      <p>
-        Every day, I am driven by my love for learning and the endless possibilities within the tech industry. I'm excited to continue growing, tackling new challenges, and contributing to innovative projects. Welcome to my portfolio, where you can witness the evolution of my skills and the dedication I bring to my work.
-      </p>
-      </div>
-      <div>
-  <div className="ball-1"></div>
-<div className="ball-2"></div>
-<div className="ball-3"></div>
-
-      </div>
+          <p>
+            I am <strong>Teona Kartvelishvili</strong>, a full-stack developer with over <strong>3 years</strong> of experience. My primary tools and technologies include <strong className="highlight">React</strong>, <strong>Next.js</strong>, <strong>Node.js</strong>, <strong>Nest.js</strong>, and <strong>Express.js</strong>. Additionally, I have a strong foundation in <strong>Python</strong>, <strong>C#</strong>, and databases like <strong>Microsoft SQL</strong>, <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, and <strong>Firebase</strong>.
+          </p>
+          <p>
+            Alongside my development skills, I am proficient in <strong className="highlight">UI/UX design</strong> and <strong>graphic design</strong>. I have hands-on experience using tools like <strong>Figma</strong>, <strong>Adobe Photoshop</strong>, and <strong>Adobe Illustrator</strong>. This combination of technical expertise and design knowledge enables me to create seamless user experiences with visually compelling interfaces.
+          </p>
+          <p>
+            My journey into the tech world began 3 years ago when I decided to fully commit to programming. Since then, I have continuously refined my skills and expanded my knowledge through various <strong className="highlight">funding opportunities</strong> and <strong className="highlight">scholarships</strong>. Today, I am driven by a passion for learning, innovation, and contributing to impactful projects. 
+          </p>
+          <p>
+            Welcome to my portfolio, where you can explore my work, skills, and the dedication I bring to every project. 
+          </p>
+        </div>
+        <div>
+          <div className="ball-1"></div>
+          <div className="ball-2"></div>
+          <div className="ball-3"></div>
+        </div>
       </div>
     </div>
   );
