@@ -17,43 +17,43 @@ import Odedoo from '../../Assets/odedoo.png';
 const projectsData = [
     {
         name: "BestSoft",
-        description: "Our first company, founded by best friends, focusing on delivering innovative solutions.",
+        description: "Best Soft With Best Friends",
         image: BSLogo,
         link: "https://bestsoft.ge"
     },
     {
         name: "PixelStudio",
-        description: "A creative platform developed using UI design principles and the React framework.",
+        description: "App for photo studio with my UI/UX design",
         image: PixelStudio,
         link: "https://pixelstudio-fawn.vercel.app"
     },
     {
         name: "OdedOO",
-        description: "A joint procurement platform built with Next.js, streamlining purchasing processes.",
+        description: "A joint procurement platform",
         image: Odedoo,
         link: "https://odedoo.com"
     },
     {
         name: "BluPrint",
-        description: "A fully customized project showcasing unique design and functionality.",
+        description: "App for BluPrint studio",
         image: BluPrintLogo,
         link: "https://www.blueprintstudio.ge/"
     },
     {
         name: "Weather",
-        description: "Application providing real-time weather updates for Georgia.",
+        description: "Weather forecast in Georgia",
         image: amindi,
         link: "https://weather-phi-pink.vercel.app/"
     },
     {
         name: "PriceTracker",
-        description: "A dynamic app for managing product prices, calculating profits, and exporting reports in PDF format.",
+        description: "App for managing product prices and profit calculation with PDF export",
         image: pricetracker,
         link: "https://pricetracker-lemon.vercel.app/"
     },
     {
         name: "FishHunt",
-        description: "My first UI/UX design project, focused on creating a seamless user experience for fishing, hunting and camping enthusiasts.",
+        description: "My first UI/UX design project",
         image: FishHunt,
         link: "https://www.behance.net/gallery/213586383/FishHunt"
     }
