@@ -4,7 +4,7 @@ import "./Main.css";
 import TEO from '../../Assets/TEO.jpg';
 import CircleEffect from "../../Components/CircleEffect/CircleEffect";
 import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
-import CV from '../../Assets/CV-Teona Kartvelishvili.pdf';
+import CV from '../../Assets/Teona Kartvelishvili - portfolio.pdf';
 import footerImg from '../../Assets/paper-text-illustration-the-background-of-the-knowledge-in-the-book-1ce8854c8bc28769619eda06469bf70d.png';
 import Lamp from "../../Components/Lamp/Lamp";
 
