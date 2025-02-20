@@ -16,7 +16,7 @@ const MainPage = () => {
       {/* თუ ღამის რეჟიმია აქტიური, გამოაჩინე Lamp კომპონენტი */}
       {theme === 'dark' && <Lamp />}
       
-      <CircleEffect />
+      {/* <CircleEffect /> */}
       {/* <CircleSquare /> */}
 
       <div className={`MainCont2 ${theme}`}>
