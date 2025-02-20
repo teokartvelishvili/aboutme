@@ -15,29 +15,37 @@ const Skills = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
  
   const skills = [
-    { name: "HTML", level: 5 },
-    { name: "CSS", level: 5 },
-    { name: "SCSS", level: 4 },
-    { name: "Bootstrap", level: 4 },
-    { name: "JavaScript", level: 3 },
-    { name: "React", level: 4 },
-    { name: "Angular", level: 1 },
-    { name: "React Native", level: 0.7 },
-    { name: "Python", level: 1 },
-    { name: "Django", level: 1 },
-    { name: "C#", level: 1 },
-    { name: "ASP.NET", level: 1 },
-    { name: "Postgre SQL", level: 2 },
-    { name: "Microsoft SQL", level: 2 },
-    { name: "Figma", level: 0.7 },
-    { name: "Adobe Photoshop" , level: 0.7 },
-    { name: "Adobe Illustrator", level: 0.7 },
+    { name: "HTML" },
+    { name: "CSS" },
+    { name: "SCSS" },
+    // { name: "Bootstrap" },
+    { name: "JavaScript"},
+    { name: "TypeScript"},
+    { name: "React" },
+    { name: "Angular" },
+    { name: "Next JS" },
+    { name: "Node JS" },
+    { name: "Express JS" },
+    { name: "Nest JS" },
+    { name: "Python" },
+    { name: "Django"},
+    { name: "C#" },
+    { name: "ASP.NET" },
+    { name: "Postgre SQL" },
+    { name: "Microsoft SQL" },
+    { name: "MongoDB" },
+    { name: "Git/GitHub" },
+    { name: "Figma" },
+    { name: "Adobe Photoshop"},
+    { name: "Adobe Illustrator" },
 
     // Add more skills as needed
   ];
   const Languages = [
-    { name: "Georgian", level: 5 },
-    { name: "English", level: 3 },
+    { name: "Georgian"},
+    { name: "English"
+
+     },
  
 
     // Add more skills as needed
@@ -55,7 +63,7 @@ const Skills = () => {
             <div className="name">{skill.name}</div>
           </div>
 
-          <div className="level">{renderSkillLevel(skill.level)}</div>
+          {/* <div className="level">{renderSkillLevel(skill.level)}</div> */}
         </div>
       ))}
     </div>
@@ -69,7 +77,7 @@ const Skills = () => {
             <div className="name">{Languages.name}</div>
           </div>
 
-          <div className="level">{renderSkillLevel(Languages.level)}</div>
+          {/* <div className="level">{renderSkillLevel(Languages.level)}</div> */}
         </div>
       ))}
     </div>
