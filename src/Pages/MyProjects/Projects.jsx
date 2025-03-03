@@ -37,7 +37,7 @@ const projectsData = [
         name: "BluPrint",
         description: "App for BluPrint studio",
         image: BluPrintLogo,
-        link: "https://www.blueprintstudio.ge/"
+        link: "https://blue-print-project2024.vercel.app/"
     },
     {
         name: "Weather",
