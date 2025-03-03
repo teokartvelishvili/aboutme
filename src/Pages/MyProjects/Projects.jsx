@@ -56,6 +56,12 @@ const projectsData = [
         description: "My first UI/UX design project",
         image: FishHunt,
         link: "https://www.behance.net/gallery/213586383/FishHunt"
+    },
+    {
+        name: "FishHunt",
+        description: "Current project with Next.js and Nest.js",
+        image: FishHunt,
+        link: "https://fishhunt.vercel.app/"
     }
 
 
