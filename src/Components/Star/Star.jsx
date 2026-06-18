@@ -6,7 +6,6 @@ import fallingStarImg from '../../Assets/fallingStar.png';
 
 const Star = ({ numberOfStars }) => {
     const { theme } = useContext(ThemeContext); // Access ThemeContext
-    const [isChecked, setIsChecked] = useState(theme === "dark");
     const fallingStarRef = useRef(null);
 
     useEffect(() => {

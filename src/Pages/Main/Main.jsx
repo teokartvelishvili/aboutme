@@ -1,15 +1,12 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
 import "./Main.css";
 import TEO from '../../Assets/TEO.jpg';
-import CircleEffect from "../../Components/CircleEffect/CircleEffect";
-import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
 import CV from '../../Assets/Teona Kartvelishvili - portfolio.pdf';
-import footerImg from '../../Assets/paper-text-illustration-the-background-of-the-knowledge-in-the-book-1ce8854c8bc28769619eda06469bf70d.png';
 import Lamp from "../../Components/Lamp/Lamp";
 
 const MainPage = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext); // Access ThemeContext
+  const { theme } = useContext(ThemeContext); // Access ThemeContext
 
   return (
     <div id="home" className={`MainCont ${theme}`}>

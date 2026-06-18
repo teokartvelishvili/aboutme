@@ -9,13 +9,12 @@ import git from '../../Assets/GitHub.webp';
 import linkedin from '../../Assets/linkedin.webp';
 import fb from '../../Assets/facebook.webp';
 import inst from '../../Assets/instagram.webp';
-import mail from '../../Assets/mail.webp';
 import call from '../../Assets/calls.webp'
 import { useContext } from "react";
 
 
 const Contact = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext); 
+  const { theme } = useContext(ThemeContext); 
   // const { language, setLanguage } = useContext(LanguageContext);
   // State variables to store form data
   const [name, setName] = useState("");

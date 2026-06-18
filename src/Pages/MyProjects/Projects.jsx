@@ -1,15 +1,12 @@
 
 import "./Projects.css";
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
 import webIcon from '../../Assets/uehih159jjn0515185cibslqea.png';
 import linkIcon2 from '../../Assets/history-of-the-world-wide-web-website-internet-world-wide-web-consortium-www-png-pic-729057b1059092333b44a81be522843d.png';
-import linkIcon from '../../Assets/hyperlink-computer-icons-link-exchange-website-ico-download-links-8ec00b276d4eeaf491ac36c3d867ff97.png';
-import image1 from '../../Assets/digital-nomad-girl-enjoying-working-with-computer-laptop-while-holiday-beach_962751-5920.jpg';
 import BluPrintLogo from '../../Assets/logoBluPrint.png';
 import amindi from '../../Assets/amindi1.jpg';
 import BSLogo from '../../Assets/BestSoftLogo.png';
-import CanvasAnimation from "../../Components/CanvasAnimation/CanvasAnimation";
 import pricetracker from '../../Assets/pricetracker.png';
 import FishHunt from '../../Assets/fh.png';
 import PixelStudio from '../../Assets/Yellow.png';
@@ -102,7 +99,7 @@ const projectsData = [
 ];
 
 const Projects = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
     return(  
     <div id="projects" className={`projectsPage ${theme}`}>  
      

@@ -8,11 +8,8 @@ import Navbar from "../Navbar/Navbar";
 import logoLight from "../../Assets/teoLogoLight.png";
 import logoDark from "../../Assets/teoLogoDark.png";
 import ToggleSwitch from "../Toggle/Toggle";
-import lemon from '../../Assets/Property 1=orange, Property 2=on.png';
 import sunShine from '../../Assets/sunShine.jpeg';
 import toggleStars from '../../Assets/stars.jpeg'
-import engFlag from '../../Assets/engFlag.png';
-import geoFlag from '../../Assets/geoFlag.png';
 import Star from "../Star/Star.jsx";
 
 

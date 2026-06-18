@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
 // import {
 //   FaHtml5,
@@ -12,7 +12,7 @@ import { ThemeContext } from "../../Hooks/ThemeContecs";
 import "./Skills.css";
 
 const Skills = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
  
   const skills = [
     { name: "HTML" },
@@ -106,15 +106,5 @@ const Skills = () => {
 //       return null;
 //   }
 // };
-
-const renderSkillLevel = (level) => {
-  return (
-    <div className="level-indicator">
-      <div className="level-bar">
-        <div className="level-fill" style={{ width: `${level * 20}%` }}></div>
-      </div>
-    </div>
-  );
-};
 
 export default Skills;

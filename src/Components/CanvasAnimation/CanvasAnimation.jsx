@@ -13,7 +13,6 @@ const CanvasAnimation = () => {
   useEffect(() => {
     const canvas = canvasRef.current;
     const lightImage = lightImageRef.current;
-    const ctx = canvas.getContext("2d");
     class Vector {
       constructor(x, y) {
         this.x = x || 0;
