@@ -13,6 +13,7 @@ import PixelStudio from '../../Assets/Yellow.png';
 import Odedoo from '../../Assets/odedoo.png';
 import soulart from '../../Assets/soulart.png';
 import myhunter from '../../Assets/myhunter.png';
+import salxino from '../../Assets/salxino.png';
 const projectsData = [
     {
         name: "BestSoft",
@@ -49,7 +50,13 @@ const projectsData = [
         name: "BluPrint",
         description: "App for BluPrint studio",
         image: BluPrintLogo,
-        link: "hhttps://blue-print-georgia.vercel.app/"
+        link: "https://blue-print-georgia.vercel.app/"
+    },
+    {
+        name: "Salxino",
+        description: "Salxinos Page",
+        image: salxino,
+        link: "https://salxino.vercel.app/"
     },
     {
         name: "Weather",
