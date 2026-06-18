@@ -14,6 +14,8 @@ import pricetracker from '../../Assets/pricetracker.png';
 import FishHunt from '../../Assets/fh.png';
 import PixelStudio from '../../Assets/Yellow.png';
 import Odedoo from '../../Assets/odedoo.png';
+import soulart from '../../Assets/soulart.png';
+import myhunter from '../../Assets/myhunter.png';
 const projectsData = [
     {
         name: "BestSoft",
@@ -21,11 +23,24 @@ const projectsData = [
         image: BSLogo,
         link: "https://bestsoft.ge"
     },
+   
     {
         name: "PixelStudio",
         description: "App for photo studio with my UI/UX design",
         image: PixelStudio,
-        link: "https://pixelstudio-fawn.vercel.app"
+        link: "https://pixelstudio-app.vercel.app/"
+    },
+     {
+        name: "SoulArt",
+        description: "Soulart",
+        image: soulart,
+        link: "https://soulart.ge"
+    },
+     {
+        name: "MyHunter",
+        description: "Online Market",
+        image: myhunter,
+        link: "https://myhunter.ge"
     },
     {
         name: "OdedOO",
@@ -37,7 +52,7 @@ const projectsData = [
         name: "BluPrint",
         description: "App for BluPrint studio",
         image: BluPrintLogo,
-        link: "https://blue-print-project2024.vercel.app/"
+        link: "hhttps://blue-print-georgia.vercel.app/"
     },
     {
         name: "Weather",
@@ -61,7 +76,7 @@ const projectsData = [
         name: "FishHunt",
         description: "Current project with Next.js and Nest.js",
         image: FishHunt,
-        link: "https://fishhunt.vercel.app/"
+        link: "https://fishhunt.ge/"
     }
 
 
