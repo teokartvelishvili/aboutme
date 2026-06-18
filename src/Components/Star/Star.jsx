@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import "./Star.css";
 import { ThemeContext } from "../../Hooks/ThemeContecs";
 import star from '../../Assets/f1vc5obqj6h2euce4sdaaeupck-26688eb9b1cb1216298197a66d86efe3.png';
